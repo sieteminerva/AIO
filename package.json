@@ -1,21 +1,36 @@
 {
-  "name": "gh-profile",
+  "name": "AIO-Static-Site-Generator",
   "version": "1.0.0",
   "description": "a profilr page of gh",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run pug\" \"npm run lite\"",
-    "lite": "lite-server",
-    "pug": "pug --obj ./site-config.json ./src --pretty --out ./dist",
-    "pug:w": "pug --obj ./site-config.json ./src --pretty --out ./dist --watch"
+    "start": "npm run start:server",
+    "new": "npm run scaffolding:structure -s",
+    "clean": "npm run removing:structure -s",
+    "scaffolding:structure": "mkdirp _kitchen/css _kitchen/public/js && touch _kitchen/public/index.html",
+    "removing:structure": "rimraf _kitchen",
+    "start:server": "nodemon server.js",
+    "pug:compile": "pug --obj ./site-config.json ./src --pretty --out ./dist",
+    "pug:watch": "pug ./site-config.json ./src --watch",
+    "less:compile": "lessc ./src ./dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "concurrently": "^3.1.0",
+    "express": "^4.14.0",
     "html2jade": "^0.8.6",
+    "http-server": "^0.9.0",
     "less": "^2.7.1",
-    "lite-server": "^2.2.2",
-    "pug": "^2.0.0-beta6"
+    "less-middleware": "^2.2.0",
+    "mkdirp": "^0.5.1",
+    "pug": "^2.0.0-beta6",
+    "rimraf": "^2.5.4",
+    "watch": "^1.0.1"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.0",
+    "livereload": "^0.6.0",
+    "nodemon": "^1.11.0"
   }
 }

@@ -1,18 +1,34 @@
-//- Pug Template for index Html
+extends ../_kitchen/_templates/pages/default-index.pug
 
-doctype html
 
-html
-  head
-    meta(charset='UTF-8')
-    title=site.title
-    script(src=scripts.main)
-    link(rel='stylesheet' type='text/css' href=styles.main)
-    link(rel='stylesheet' type='text/css' href='dist/assets/semantic.color.css')
-    link(rel='stylesheet' type='text/css' href='dist/assets/libs/semantic.min.css')
-    script(src='dist/assets/libs/jquery.min.js')
-    script(type='text/javascript' src='dist/assets/libs/semantic.min.js')
-  body
-    include partials/jondeg.pug
-    include templates/test.pug
-    include mixin/abu.pug
+block main-navigation
+  header.ui.top.menu
+    nav.menu
+      a.item.header
+        img(src="images/aio-icon.jpg")
+      a.item
+        i.home.icon
+        | home
+
+
+block welcome-section
+  include ../_kitchen/_templates/sections/welcome.section.pug
+block intro-section
+  include ../_kitchen/_templates/sections/intro.section.pug
+block company-fields
+  include ../_kitchen/_templates/sections/company-fields.section.pug
+block philosophy
+  include ../_kitchen/_templates/sections/philosophy.section.pug
+block team
+  include ../_kitchen/_templates/sections/team.section.pug
+block company-service
+  include ../_kitchen/_templates/sections/company-service.section.pug
+block company-service
+  include ../_kitchen/_templates/sections/company-experience.section.pug
+block articles
+  include ../_kitchen/_templates/sections/articles.section.pug
+block company-info
+  include ../_kitchen/_templates/sections/company-info.section.pug
+
+block footer
+  h1 Developer Footer

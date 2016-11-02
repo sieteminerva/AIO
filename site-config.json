@@ -1,14 +1,17 @@
 {
-	"site": {
-		"title": "GH Profile"
-	},
-	"scripts": {
-		"main": "assets/libs/scripts.js"
-	},
-	"styles": {
-		"main" : "assets/libs/styles.css"
-	},
+	"title": "AIO - Static Site Generator",
+  "message": "AIO Site Generator",
 	"section": {
-		"welcome": "partials/jondeg.pug"
-	}
+
+	},
+  "scripts": [
+    "libs/jquery.min.js",
+    "libs/semantic.min.js",
+    "libs/scripts.js"
+  ],
+  "styles": [
+    "libs/semantic.min.css",
+    "libs/semantic.color.css",
+    "css/main.css"
+  ]
 }

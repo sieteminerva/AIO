@@ -1,0 +1,490 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Semantic-UI Color Generator
+    link(rel='stylesheet' type='text/css' href='dist/semantic.color.css')
+    link(rel='stylesheet' type='text/css' href='docs/assets/libs/semantic.min.css')
+    script(src='docs/assets/libs/jquery.min.js')
+    script(type='text/javascript' src='docs/assets/libs/semantic.min.js')
+  :css
+    iframe {
+    height: calc(100vh - 10em);
+    }
+    body {
+    background-color: #F2F4EF;
+    }
+    #sidebarContent * {
+    color: #000;
+    }
+    .hideOverflow {
+    overflow: hidden;
+    }
+    .ui.circular.palette.button {
+    height: 35px !important;
+    width:  35px !important;
+    padding: 5px !important;
+    margin:  0.20em !important;
+    border: 2px solid rgba(163,163,152, 0.5);
+    }
+    .ui.circular.palette.button:hover {
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    box-shadow: inset 1px 1px 5px 0px rgba(0,0,0,0.5);
+    }
+    .ui.circular.palette.button.active,
+    .ui.circular.palette.button:active {
+    border: 2px solid white;
+    box-shadow: inset 1px 1px 7px 0px rgba(0,0,0,0.7);
+    }
+    .item.center.aligned {
+    text-align: center !important;
+    }
+    .white.sub.header {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 0.75rem !important;
+    }
+    .ui.palette.header {
+    font-size: 1rem !important;
+    font-weight: 200;
+    margin-bottom: 0.5em !important;
+    text-align: right !important;
+    }
+    .palette.item {
+    border-radius: none !important;
+    }
+    .ui.palette.label {
+    margin-left: 0 !important;
+    color: #000;
+    border-top-left-radius: 0rem !important;
+    }
+    .ui.palette.label .header{
+    color: #000 !important;
+    }
+    .ui.top.inverted.menu.color.generator {
+    position: relative;
+    padding-right: 1em !important;
+    left: 210px !important;
+    margin-left: 0px !important;
+    padding-left: 0 !important;
+    padding-right: 0em !important;
+    width: calc(100vw - 210px) !important;
+    }
+    #githubButton {
+    position: absolute;
+    bottom: 30px;
+    left: 65px;
+    text-align: center;
+    color: rgba(255,255,255, 0.7);
+    }
+    #githubButton:hover {
+    color: grey;
+    }
+    .ui.menu.sharing.button {
+    background: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: none !important;
+    margin-left: 210px;
+    }
+  body
+    // sidebar
+    aside.ui.inverted.left.fixed.vertical.menu
+      .item.header(style='padding-left:0px !important;')
+        h3.ui.olive.center.aligned.header
+          | Semantic-UI 
+          .white.sub.header Color Generator
+      .palette.item.custom
+        .ui.top.left.attached.olive.palette.label
+          .header Custom Color
+        a#darkgreenColor.ui.circular.darkgreen.button.palette
+        a#darkblueColor.ui.circular.darkblue.button.palette
+        a#autumnbrownColor.ui.circular.autumnbrown.button.palette
+        a#flatGoldColor.ui.circular.flatgold.button.palette
+        a#concreteColor.ui.circular.concrete.button.palette
+        a#litecreamColor.ui.circular.litecream.button.palette
+      .palette.item.default
+        .ui.top.left.attached.olive.palette.label
+          .header Default Color
+        a#blackColor.ui.circular.black.button.palette
+        a#greyColor.ui.circular.grey.button.palette
+        a#redColor.ui.circular.red.button.palette
+        a#orangeColor.ui.circular.orange.button.palette
+        a#yellowColor.ui.circular.yellow.button.palette
+        a#greenColor.ui.circular.green.button.palette
+        a#oliveColor.ui.circular.olive.button.palette
+        a#purpleColor.ui.circular.purple.button.palette
+        a#violetColor.ui.circular.violet.button.palette
+        a#pinkColor.ui.circular.pink.button.palette
+        a#tealColor.ui.circular.teal.button.palette
+        a#blueColor.ui.circular.blue.button.palette
+      .palette.item
+        a#defaultColor.ui.basic.inverted.fluid.button  Reset to Default 
+      a#githubButton(href='https://github.com/sieteminerva/Semantic-UI-Color-Generator')
+        i.big.github.icon
+        p github page
+    #sidebarContent.ui.top.sidebar
+      .ui.padded.grid(style='height: calc(100vh - 4em) !important; margin-left: 210px !important; margin-right: 0px !important;')
+        .row
+          .litecream.column
+            h3.ui.dividing.header
+              | Semantic-UI Color Generator
+              .sub.header
+                | Generating your new color class effortless!
+            iframe(src='docs/index.html' frameborder='0' border='0' width='100%')
+    // main Area
+    .pusher
+      // Top fixed menu
+      header#topmenu.ui.top.inverted.menu.color.generator
+        a#sidebarTrigger.active.olive.item(style='border-radius: 0 !important;')
+          i.angle.double.down.big.icon(style='margin-right: 0 !important;')
+        .ui.inverted.popup.transition.hidden Show Tutorial
+        .right.menu
+          #showcaseTitle.active.item.header(style='padding-right: 2em;')
+            .ui.inverted.center.aligned.header
+              | Element Showcase
+              .sub.header Previewing Activated Color
+      main.ui.padded.grid(style='padding-left: 210px !important;')
+        .stretched.row
+          .column
+            .ui.container(style='padding: 2em 1em;')
+              // Header
+              .ui.dividing.header
+                | Header
+              .ui.two.column.padded.grid.stackable
+                .column
+                  section.ui.basic.segment
+                    h5.ui.header
+                      | H5 Header
+                    h4.ui.header
+                      | H4 Header
+                    h3.ui.header
+                      | H3 Header
+                    h2.ui.header
+                      | H2 Header
+                    h1.ui.header
+                      | H1 Header
+                .column
+                  section.ui.inverted.segment
+                    h1.ui.inverted.header
+                      | H1 Header
+                    h2.ui.inverted.header
+                      | H2 Header
+                    h3.ui.inverted.header
+                      | H3 Header
+                    h4.ui.inverted.header
+                      | H4 Header
+                    h5.ui.inverted.header
+                      | H5 Header
+              // Icon
+              .ui.dividing.header
+                | Icon
+              section.ui.basic.segment
+                i.massive.home.icon
+                i.huge.home.icon
+                i.big.home.icon
+                i.large.home.icon
+                i.home.icon
+                i.small.home.icon
+                i.tiny.home.icon
+                i.mini.home.icon
+              // Menu
+              .ui.dividing.header
+                | Menu
+              section.ui.basic.segment
+                nav.ui.inverted.three.item.menu
+                  a.item item 1
+                  a.item item 2
+                  a.item item 3
+                nav.ui.three.item.secondary.pointing.menu
+                  a.item item 1
+                  a.active.item item 2
+                  a.item item 3
+              // Button & Label
+              .ui.dividing.header
+                | Button &amp; Label
+              .ui.two.column.padded.grid.stackable
+                // Button
+                .column
+                  .ui.header Button
+                  form.ui.basic.form.segment
+                    .three.fields
+                      .field
+                        .ui.fluid.button
+                          | button
+                      .field
+                        .ui.basic.fluid.button
+                          | button
+                      .field
+                        .ui.inverted.fluid.button
+                          | button
+                    .three.fields
+                      .field
+                        .ui.circular.icon.button
+                          i.warning.icon
+                      .field
+                        .ui.labeled.button(tabindex='0')
+                          .ui.button
+                            i.heart.icon
+                            |  Like
+                          a.ui.basic.left.pointing.label
+                            | 1,048
+                    .two.fields
+                      .field
+                        .ui.vertical.labeled.icon.buttons
+                          button.ui.button
+                            i.pause.icon
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;    Pause
+                          button.ui.button
+                            i.play.icon
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;    Play
+                          button.ui.button
+                            i.shuffle.icon
+                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;    Shuffle
+                      .field
+                        .ui.top.attached.button(tabindex='0') Top
+                        .ui.attached.center.aligned.segment
+                          p  attached button 
+                        .ui.bottom.attached.button(tabindex='0') Bottom
+                // Label
+                .column
+                  .ui.header Label
+                  section.ui.basic.segment
+                    .ui.label
+                      | label
+                    .ui.basic.label
+                      | label
+                    a.ui.image.label
+                      img(src='docs/assets/images/aio-icon.jpg')
+                      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;  AIO icon
+                      .detail Friend
+                    a.ui.tag.label Black Tag
+                    .ui.segment
+                      .ui.ribbon.label
+                        | ribbon label
+                      .ui.bottom.right.attached.label Bottom Attached
+                    .ui.compact.menu
+                      a.item
+                        i.icon.mail
+                        |  Messages
+                        .floating.ui.label 22
+                      a.item
+                        i.icon.users
+                        |  Friends
+                        .floating.ui.teal.label 22
+                    .ui.small.image(style='margin-left: 2em;')
+                      a.ui.left.corner.label
+                        i.inverted.heart.icon
+                      img(src='docs/assets/images/placeholder.png')
+              // Segment
+              .ui.dividing.header
+                | Segment
+              .ui.two.column.padded.grid.stackable
+                section.column
+                  .ui.segment
+                    | Colored Segment
+                  .ui.raised.segment
+                    | Colored Raised Segment
+                  .ui.stacked.segment
+                    | Colored Stacked Segment
+                section.column
+                  .ui.inverted.segment
+                    | Inverted Segment
+                  .ui.inverted.circular.segment(style='width: 200px; height: 200px;')
+                    | Circular Segment
+              // Card
+              .ui.dividing.header
+                | Card
+              section.ui.four.cards
+                a.ui.card
+                  .image
+                    img(src='docs/assets/images/white-placeholder.png')
+              // Message
+              .ui.dividing.header
+                | Message
+              section.ui.basic.segment
+                .ui.visible.message
+                  p You can always see me
+                .ui.icon.message
+                  i.inbox.icon
+                  .content
+                    .header
+                      | Have you heard about our mailing list?
+                    p Get the best news in your e-mail every day.
+                .ui.icon.message
+                  i.notched.circle.loading.icon
+                  .content
+                    .header
+                      | Just one second
+                    p We&apos;re fetching that content for you.
+              // Table
+              .ui.dividing.header
+                | Table
+              .ui.two.column.padded.grid.stackable
+                section.column
+                  table.ui.inverted.celled.table
+                    thead
+                      tr
+                        th Name
+                        th Status
+                        th Notes
+                    tbody
+                      tr
+                        td John
+                        td Approved
+                        td None
+                      tr
+                        td Jill
+                        td Denied
+                        td None
+                    tfoot
+                      tr
+                        th 3 People
+                        th 2 Approved
+                        th
+                  table.ui.celled.table
+                    thead
+                      tr
+                        th Name
+                        th Status
+                        th Notes
+                    tbody
+                      tr
+                        td John
+                        td Approved
+                        td None
+                      tr
+                        td Jill
+                        td Denied
+                        td None
+                    tfoot
+                      tr
+                        th 3 People
+                        th 2 Approved
+                        th
+                section.column
+                  table.ui.table
+                    thead
+                      tr
+                        th Food
+                        th Calories
+                        th Protein
+                    tbody
+                      tr
+                        td Apples
+                        td 200
+                        td 0g
+                      tr
+                        td Orange
+                        td 310
+                        td 0g
+                      tr
+                        td Telor
+                        td 150
+                        td 0g
+                  table.ui.selectable.inverted.table
+                    thead
+                      tr
+                        th Name
+                        th Status
+                        th.right.aligned Notes
+                    tbody
+                      tr
+                        td John
+                        td Approved
+                        td.right.aligned None
+                      tr
+                        td Jamie
+                        td Approved
+                        td.right.aligned Requires call
+                      tr
+                        td Jill
+                        td Denied
+                        td.right.aligned None
+              // Progress
+              .ui.dividing.header
+                | Progress
+              .ui.two.column.padded.grid.stackable
+                .column
+                  section.ui.basic.segment
+                    .ui.tiny.progress(data-value='20' data-total='100')
+                      .bar
+                      .label Tiny
+                    .ui.small.progress(data-value='30' data-total='100')
+                      .bar
+                      .label Small
+                    .ui.progress(data-value='40' data-total='100')
+                      .bar
+                      .label Standard
+                    .ui.large.progress(data-value='50' data-total='100')
+                      .bar
+                      .label Large
+                    .ui.big.progress(data-value='60' data-total='100')
+                      .bar
+                      .label Big
+                .column
+                  section.ui.inverted.segment
+                    .ui.big.inverted.progress(data-value='60' data-total='100')
+                      .bar
+                      .label Big
+                    .ui.large.inverted.progress(data-value='50' data-total='100')
+                      .bar
+                      .label Large
+                    .ui.inverted.progress(data-value='40' data-total='100')
+                      .bar
+                      .label Standard
+                    .ui.small.inverted.progress(data-value='30' data-total='100')
+                      .bar
+                      .label Small
+                    .ui.tiny.inverted.progress(data-value='20' data-total='100')
+                      .bar
+                      .label Tiny
+              // Dimmer
+              .ui.dividing.header
+                | Dimmer
+              section#showDimmer.ui.padded.centered.grid(style='height: 250px;')
+                .row
+                  .bottom.aligned.column
+                    .ui.button
+                      | Click to see dimmer
+                .ui.dimmer
+                  .content
+                    .center
+                      .ui.header
+                        | THIS IS THE DIMMER
+              // Grid
+              .ui.dividing.header
+                | Grid
+              .ui.centered.padded.grid
+                section#rowColored.middle.aligned.row
+                  | Colored row
+                .two.column.row.stackable
+                  .center.aligned.grey.column
+                    | Grey column
+                  section#columnColored.center.aligned.column
+                    | Colored column
+      footer
+        .ui.centered.padded.grid
+          .grey.row
+            .ui.menu.sharing.button.borderless
+              .item
+                a.ui.right.floating.left.labeled.icon.button(href='https://github.com/sieteminerva/Semantic-UI-Color-Generator')
+                  i.github.icon
+                  | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Fork on Github
+              .right.menu
+                .item
+                  a.ui.circular.icon.button.twitter(target='_blank' href='https://twitter.com/share?url={{WebsiteUrl}}&text={{Semantic-UI%20Color%20Generator}}&hashtags={{#sieteminerva}}')
+                    i.twitter.icon
+                .item
+                  a.ui.circular.icon.button.facebook(target='_blank' href='http://www.facebook.com/sharer.php?u={{WebsiteUrl}}')
+                    i.facebook.icon
+                .item
+                  a.ui.circular.icon.button.pinterest(target='_blank' href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinit.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());")
+                    i.pinterest.icon
+                .item
+                  a.ui.circular.icon.button.google(target='_blank' href='https://plus.google.com/share?url={{WebsiteUrl}}')
+                    i.google.plus.icon
+                .item
+                  a.ui.circular.icon.button.linkedin(target='_blank' href='http://www.linkedin.com/shareArticle?mini=true&url={{WebsiteUrl}}')
+                    i.linkedin.icon
+    script(src='docs/assets/libs/script.js')

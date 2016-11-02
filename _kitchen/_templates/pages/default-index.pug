@@ -1,0 +1,30 @@
+//- Pug Template for default index.html
+
+doctype html
+
+html
+  head
+    meta(charset='UTF-8')
+    title= site.title
+    //- Stylesheets in Use
+    each styles in site.styles
+      link(rel='stylesheet' type='text/css' href= styles)
+
+    //- Scripts in Use
+    each scripts in site.scripts
+      script(type='text/javascript' src= scripts)
+
+  body
+    block main-navigation
+    block main-page
+      block welcome-section
+      block intro-section
+      block company-fields
+      block philosophy
+      block team
+      block company-service
+      block company-service
+      block articles
+      block company-info
+
+    block footer

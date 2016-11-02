@@ -24,7 +24,7 @@ $(document).ready(function() {
 
 
     function toggleArrow() {
-      
+
       $('#sidebarTrigger').find('i').toggleClass('up').toggleClass('down');
       $('#sidebarTrigger').toggleClass('olive').toggleClass('orange');
       ($('header > .ui.popup').text() === "Show Tutorial") ? $('header > .ui.popup').text("Hide Tutorial"): $('header > .ui.popup').text("Show Tutorial");
@@ -36,7 +36,7 @@ $(document).ready(function() {
       $('aside > div.palette.item > a').click(function() {
           $('div.palette.item.default > a').removeClass('active');
           $(this).addClass('active').siblings().removeClass('active');
-          
+
           $('div.palette.item.custom > a').removeClass('active');
           $(this).addClass('active').siblings().removeClass('active');
       });
@@ -58,7 +58,7 @@ $(document).ready(function() {
       $('#showcaseTitle').removeClass(uiColor);
     }
 
-    function resetDefaultColor(){ 
+    function resetDefaultColor(){
       $('aside > div.palette.item.custom > a').removeClass('active');
       $('aside > div.palette.item.default > a').removeClass('active');
       resetColor();
