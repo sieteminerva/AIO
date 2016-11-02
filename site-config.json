@@ -1,0 +1,14 @@
+{
+	"site": {
+		"title": "GH Profile"
+	},
+	"scripts": {
+		"main": "assets/libs/scripts.js"
+	},
+	"styles": {
+		"main" : "assets/libs/styles.css"
+	},
+	"section": {
+		"welcome": "partials/jondeg.pug"
+	}
+}

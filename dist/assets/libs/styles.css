@@ -1,0 +1,15 @@
+body {
+	background-color: #000 !important;
+	padding: 2em;
+	color: #FFF;
+}
+
+h1 {
+	color: red !important;
+	text-transform: uppercase;
+}
+.time.bomb {
+	background-color: #FFF;
+	height: 250px;
+	color: #000;
+}

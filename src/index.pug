@@ -1,0 +1,18 @@
+//- Pug Template for index Html
+
+doctype html
+
+html
+  head
+    meta(charset='UTF-8')
+    title=site.title
+    script(src=scripts.main)
+    link(rel='stylesheet' type='text/css' href=styles.main)
+    link(rel='stylesheet' type='text/css' href='dist/assets/semantic.color.css')
+    link(rel='stylesheet' type='text/css' href='dist/assets/libs/semantic.min.css')
+    script(src='dist/assets/libs/jquery.min.js')
+    script(type='text/javascript' src='dist/assets/libs/semantic.min.js')
+  body
+    include partials/jondeg.pug
+    include templates/test.pug
+    include mixin/abu.pug

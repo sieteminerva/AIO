@@ -1,0 +1,21 @@
+{
+  "name": "gh-profile",
+  "version": "1.0.0",
+  "description": "a profilr page of gh",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run pug\" \"npm run lite\"",
+    "lite": "lite-server",
+    "pug": "pug --obj ./site-config.json ./src --pretty --out ./dist",
+    "pug:w": "pug --obj ./site-config.json ./src --pretty --out ./dist --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.1.0",
+    "html2jade": "^0.8.6",
+    "less": "^2.7.1",
+    "lite-server": "^2.2.2",
+    "pug": "^2.0.0-beta6"
+  }
+}
