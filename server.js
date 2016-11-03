@@ -1,7 +1,6 @@
 
 var express = require('express');
 var app = express();
-var lessMiddleware = require('less-middleware');
 var fs = require('fs');
 var path = require('path');
 
@@ -10,16 +9,27 @@ app.set('view engine', 'pug');
 
 // Directory Structure
 app.set('views', 'src');
-app.use(lessMiddleware(__dirname + '/src', {
-  dest: __dirname + '/assets/css'
-}));
 
 app.use(require('connect-livereload')());
 
+app.use(require('less-middleware')(path.join(__dirname, 'src'), {
+  //debug: true,
+  dest: path.join(__dirname, 'assets'),
+  preprocess: {
+    path: function(pathname, req) {
+      return pathname.replace(path.sep + 'css' + path.sep, path.sep);
+    }
+  },
+  force: true
+}));
+
+// app.use(express.static(path.join(__dirname, 'src')));
+// app.use(express.static(path.join(__dirname, 'assets')));
+// app.use(express.static(path.join(__dirname, '_kitchen')));
+
 app.use(express.static(__dirname + '/src'));
 app.use(express.static(__dirname + '/assets'));
-app.use(express.static(__dirname + '/_kitchen/templates'));
-
+app.use(express.static(__dirname + '/_kitchen'));
 
 app.get('/', function(req, res){
   var pugConfig = fs.readFileSync('site-config.json');
@@ -33,9 +43,10 @@ app.listen(3000, function () {
 
 // Live Reload
 var livereload = require('livereload').createServer({
-    exts: ['pug', 'less']
+    exts: ['pug', 'less', 'md']
 });
 
 livereload.watch(__dirname + '/src');
 livereload.watch(__dirname + '/assets');
-livereload.watch(__dirname + '/_kitchen/templates/**/*');
+livereload.watch(__dirname + '/_kitchen');
+

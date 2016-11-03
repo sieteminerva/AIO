@@ -4,7 +4,8 @@
   "description": "a profilr page of gh",
   "main": "index.js",
   "scripts": {
-    "start": "npm run start:server",
+    "start": "npm run open && npm run start:server",
+    "open": "start http://localhost:3000",
     "new": "npm run scaffolding:structure -s",
     "clean": "npm run removing:structure -s",
     "scaffolding:structure": "mkdirp _kitchen/css _kitchen/public/js && touch _kitchen/public/index.html",
@@ -20,7 +21,7 @@
     "concurrently": "^3.1.0",
     "express": "^4.14.0",
     "html2jade": "^0.8.6",
-    "http-server": "^0.9.0",
+    "jstransformer-markdown-it": "^2.0.0",
     "less": "^2.7.1",
     "less-middleware": "^2.2.0",
     "mkdirp": "^0.5.1",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "connect-livereload": "^0.6.0",
     "livereload": "^0.6.0",
+    "markdown-it-decorate": "^1.2.1",
     "nodemon": "^1.11.0"
   }
 }

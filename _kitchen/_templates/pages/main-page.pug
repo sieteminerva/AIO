@@ -1,0 +1,26 @@
+include ../../_mixin.include.pug
+
+
+main.ui.padded.grid
+  block welcome-section
+    +section('Welcome', 'red')
+      include:markdown-it(html typographer plugins=['markdown-it-decorate']) ../../test.md
+
+
+
+  block intro-section
+    +section('Intro')
+  block company-fields
+    +section('Company Fields')
+  block philosophy
+    +section('Philosophy', 'purple')
+  block team
+    +section('Team', 'yellow')
+  block company-service
+    +section('Service', 'teal')
+  block company-experience
+    +section('Experience', 'flatgold')
+  block articles
+    +section('Philosophy', 'darkgreen')
+  block company-info
+    +section('Company Info', 'grey')

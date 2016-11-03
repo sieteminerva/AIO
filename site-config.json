@@ -1,6 +1,10 @@
 {
 	"title": "AIO - Static Site Generator",
+  "name": "Anggraeni & Partners",
+  "url": "http://ap-lawsolution.com",
   "message": "AIO Site Generator",
+  "developer": "AIO Technology",
+  "developerUrl": "http://allinonedoor.com",
 	"section": {
 
 	},

@@ -1,0 +1,15 @@
+mixin segment(group, color, attached, model)
+  - var segmentType = {};
+  - var coloredSegment = {};
+  - var attachedSegment = {};
+  - var modelSegment = {};
+
+  - segmentType.class = (group === undefined || 'single') ? 'ui segment': 'ui ' + group + ' segments';
+  - coloredSegment.class = (color === undefined) ? 'ui segment': 'ui ' + color + ' segment';
+  - attachedSegment.class = (attached === undefined) ? 'ui segment': 'ui ' + attached + ' attached segment'
+  - modelSegment.class = (model === undefined) ? 'ui segment': 'ui ' + model + ' segment'
+
+
+  if group === 'horizontal'
+    div&attributes(segmentType)
+      block

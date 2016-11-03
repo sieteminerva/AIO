@@ -1,34 +1,16 @@
-extends ../_kitchen/_templates/pages/default-index.pug
+extends ../_kitchen/_templates/default-index.pug
 
 
 block main-navigation
-  header.ui.top.menu
+  header.ui.attached.menu
     nav.menu
       a.item.header
         img(src="images/aio-icon.jpg")
       a.item
         i.home.icon
-        | home
+        | homo
 
 
-block welcome-section
-  include ../_kitchen/_templates/sections/welcome.section.pug
-block intro-section
-  include ../_kitchen/_templates/sections/intro.section.pug
-block company-fields
-  include ../_kitchen/_templates/sections/company-fields.section.pug
-block philosophy
-  include ../_kitchen/_templates/sections/philosophy.section.pug
-block team
-  include ../_kitchen/_templates/sections/team.section.pug
-block company-service
-  include ../_kitchen/_templates/sections/company-service.section.pug
-block company-service
-  include ../_kitchen/_templates/sections/company-experience.section.pug
-block articles
-  include ../_kitchen/_templates/sections/articles.section.pug
-block company-info
-  include ../_kitchen/_templates/sections/company-info.section.pug
 
 block footer
-  h1 Developer Footer
+  include ../_kitchen/_templates/blocks/standard-footer.pug

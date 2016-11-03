@@ -1,0 +1,27 @@
+//- Section Multiple Columns
+mixin section-multiple-columns(totalColumn, background, model)
+  - var columnInGrid = {};
+  - var coloredRow = {};
+  - var columnInRow = {};
+  - columnInGrid.class = (totalColumn === undefined) ? 'ui padded grid' : 'ui ' + totalColumn + ' column grid';
+  - coloredRow.class = (background === undefined) ? 'row' : background + ' row';
+  - columnInRow.class = (totalColumn === undefined) ? coloredRow.class + ' row' : totalColumn + ' column ' + coloredRow.class;
+  if model === 'grid'
+    section&attributes(columnInGrid)
+      block
+  else if model === 'row'
+    section.ui.padded.grid
+      div&attributes(columnInRow)
+        block
+  else
+    section&attributes(columnInGrid)
+      block
+
+//- Decalaration
+//- +section-multiple-columns('total column', 'section red', 'section type')
+    .column
+      h1 column 1
+    .column
+      h1 column 2
+    .column
+      h1 column 3

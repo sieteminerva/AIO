@@ -1,0 +1,15 @@
+.ui.padded.grid
+  .row
+    .litecream.column
+      .ui.five.item.menu
+        .item
+          | Copyright &copy; #{new Date().getFullYear()}
+        .item
+          | #{site.title}
+        .item
+          img(src="images/aio-icon.jpg")
+        a.item(target="_blank" href= site.developerUrl )
+          | #{site.developer}
+        a.item(href= site.url)
+          | #{site.name}
+

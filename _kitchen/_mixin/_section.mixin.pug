@@ -1,0 +1,12 @@
+//- Section Mixin
+mixin section(title, color)
+  - var coloredColumn = {};
+  - coloredColumn.class = (color === undefined) ? 'column': color + ' column';
+  section.row
+    div&attributes(coloredColumn)
+      .ui.container
+        .ui.dividing.header= title
+        block
+
+//- Decalaration
+//- +section('Section Title', 'Section Color'
