@@ -1,0 +1,427 @@
+[
+  {
+    "id": 0,
+    "name": "Setyawati Fitri Anggraeni, S.H., LL.M., MCIArb.",
+    "nickname": "Fitri",
+    "jobtitle": "Managing Partner",
+    "email": "fitri@ap-lawsolution.com",
+    "photo": "images/lawyer_pic/fitri.jpg",
+    "motto": "Passionate and Forward Thinking",
+    "story": "Setyawati focuses her practice in dispute resolution and litigation. She is experienced in handling criminal and civil cases, commercial dispute, and arbitration. Her main practices are international trade and shipping law. Having experience working in Nordisk Skibsrederforening, a Norwegian law firm specialized in maritime law, enable her to maintain expectation from various cultures.",
+    "education": [
+      {
+        "title": "Bachelor of Laws",
+        "university": "Faculty of Law University of Indonesia",
+        "years": 2010
+      },
+      {
+        "title": "Master of Laws",
+        "university": "University College London, England",
+        "years": 2013
+      }
+    ],
+    "language": [
+      {
+        "name": "Indonesia",
+        "flag": "id",
+        "rating": 90
+      },
+      {
+        "name": "English",
+        "flag": "us",
+        "rating": 80
+      }
+    ],
+    "membership": [
+      {
+        "abbreviation": "PERADI",
+        "description": "Indonesian Advocates Association"
+      },
+      {
+        "abbreviation": "MCIArb",
+        "description": "Chartered Institute of Arbitrators, England"
+      },
+      {
+        "abbreviation": "ICCA",
+        "description": "International Council for Commercial Arbitration"
+      },
+      {
+        "abbreviation": "NMC",
+        "description": "National Mediation Center"
+      },
+      {
+        "abbreviation": "AIT",
+        "description": "Association of Indonesian Translators"
+      },
+      {
+        "abbreviation": "MIYEA",
+        "description": "Member of Indonesia Young Enterpreneur Association"
+      }
+    ],
+    "experience": [
+      {
+        "year": 2016,
+        "description": "Representing a state own company in a commercial dispute at district court, Representing a foreign telecommunication company in a criminal case in Indonesia"
+      },
+      {
+        "year": 2015,
+        "description": "Representing Indonesia shipping company in request for bankruptcy at the commercial court in Central Jakarta district court"
+      },
+      {
+        "year": 2014,
+        "description": "Representing Indonesia construction company with international scale in arbitration proceeding at Kuala Lumpur Regional Center for Arbitration (KLRCA)"
+      }
+    ],
+    "specialization": [
+      {
+        "name": "Arbitration",
+        "rating": 80
+      },
+      {
+        "name": "Corporate Law",
+        "rating": 70
+      },
+      {
+        "name": "Civil Law",
+        "rating": 80
+      },
+      {
+        "name": "Shipping Law",
+        "rating": 80
+      },
+      {
+        "name": "Commercial Disputes",
+        "rating": 80
+      }
+    ],
+    "social": [
+      {
+        "facebook": "http://facebook.com",
+        "twitter": "http://twitter.com",
+        "linkedin": "http://linkedin.com",
+        "googleplus": "http://plus.google.com"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Agus Dwi Prasetyo, S.H.",
+    "nickname": "Agus",
+    "jobtitle": "Associate",
+    "email": "agus.dwi@ap-lawsolution.com",
+    "photo": "images/lawyer_pic/agus.jpg",
+    "motto": "Analitical and Effective",
+    "story": "Agus is proficient in understanding and analyzing various legal issues as well as providing best solution to clients. Agus focuses on commercial disputes, bankruptcy and debt restructuring. In addition, Agus also experienced in handling criminal cases and employment law.",
+    "education": [
+      {
+        "title": "Bachelor of Laws",
+        "university": "Faculty of Law University of Brawijaya",
+        "years": 2010
+      }
+    ],
+    "language": [
+      {
+        "name": "Indonesia",
+        "flag": "id",
+        "rating": 90
+      },
+      {
+        "name": "English",
+        "flag": "us",
+        "rating": 80
+      }
+    ],
+    "membership": [
+      {
+        "abbreviation": "PERADI",
+        "description": "Indonesian Advocates Association"
+      }
+    ],
+    "experience": [
+      {
+        "year": 2016,
+        "description": "Representing a Singapore Shipping Company in enforcement of the Final Consent Award issued in London within Indonesian jurisdiction."
+      },
+      {
+        "year": 2015,
+        "description": "Representing a Singapore Company as creditor in debt restructuring of one of the largest shipping companies in Indonesia."
+      },
+      {
+        "year": 2014,
+        "description": "Representing a Contractor of Production Sharing Contract (PSC) in the process of suspension of debt payment obligation (PKPU)."
+      }
+    ],
+    "specialization": [
+      {
+        "name": "Arbitration",
+        "rating": 70
+      },
+      {
+        "name": "Corporate Law",
+        "rating": 70
+      },
+      {
+        "name": "Civil Law",
+        "rating": 70
+      },
+      {
+        "name": "Shipping Law",
+        "rating": 60
+      },
+      {
+        "name": "Commercial Disputes",
+        "rating": 90
+      }
+    ],
+    "social": [
+      {
+        "facebook": "http://facebook.com",
+        "twitter": "http://twitter.com",
+        "linkedin": "http://linkedin.com",
+        "googleplus": "http://plus.google.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Tubagus Syaqief Harizansyah, S.H.",
+    "nickname": "Hariz",
+    "jobtitle": "Associate",
+    "email": "hariz.aplaw@gmail.com",
+    "photo": "images/lawyer_pic/hariz.jpg",
+    "motto": "Discipline and Reliable",
+    "story": "Haris always uphold the trust given to him. His practice focuses mainly in litigation. Furthermore, he is experienced in commercial disputes, antitrust law, and criminal law. To him, advocate is a profession that combines the art of communication, strategy, and theory in providing the best service to protect clients legal rights..",
+    "education": [
+      {
+        "title": "Bachelor of Laws",
+        "university": "Faculty of Law University of Padjajaran",
+        "years": 2010
+      }
+    ],
+    "language": [
+      {
+        "name": "Indonesia",
+        "flag": "id",
+        "rating": 90
+      },
+      {
+        "name": "English",
+        "flag": "us",
+        "rating": 70
+      }
+    ],
+    "membership": [
+      {
+        "abbreviation": "PERADI",
+        "description": "Indonesian Advocates Association"
+      }
+    ],
+    "experience": [
+      {
+        "year": 2016,
+        "description": "as counsel for a company of cattle exporters in dispute at the Business Competition Supervisory Commission (KPPU)."
+      },
+      {
+        "year": 2015,
+        "description": "Representing an Asset Management Company in criminal proceeding related to allegation of criminal act in capital market."
+      },
+      {
+        "year": 2014,
+        "description": "Representing a telecommunication company (network provider) in civil lawsuit in the East Jakarta District Court."
+      }
+    ],
+    "specialization": [
+      {
+        "name": "Arbitration",
+        "rating": 70
+      },
+      {
+        "name": "Corporate Law",
+        "rating": 70
+      },
+      {
+        "name": "Civil Law",
+        "rating": 70
+      },
+      {
+        "name": "Shipping Law",
+        "rating": 50
+      },
+      {
+        "name": "Commercial Disputes",
+        "rating": 70
+      }
+    ],
+    "social": [
+      {
+        "facebook": "http://facebook.com",
+        "twitter": "http://twitter.com",
+        "linkedin": "http://linkedin.com",
+        "googleplus": "http://plus.google.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Manuel Simbolon, S.H., M.H.",
+    "nickname": "Manuel",
+    "jobtitle": "Associate",
+    "email": "manuelsimbolon.aplaw@gmail.com",
+    "photo": "images/lawyer_pic/manuel.jpg",
+    "motto": "Detailed and Accurate",
+    "story": "Manuel is strive to provide comprehensive service to clients. It shows in his commitment to conduct a detailed research related to legal problems faced by clients.\\nHis specializes in litigation practices, particularly in criminal & civil cases, bankruptcy, consumer disputes and other commercial disputes.",
+    "education": [
+      {
+        "title": "Bachelor of Laws",
+        "university": "Faculty of Law University of Brawijaya",
+        "years": 2010
+      },
+      {
+        "title": "Master of Laws",
+        "university": "Faculty of Law University of Indonesia",
+        "years": 2010
+      }
+    ],
+    "language": [
+      {
+        "name": "Indonesia",
+        "flag": "id",
+        "rating": 90
+      },
+      {
+        "name": "English",
+        "flag": "us",
+        "rating": 70
+      }
+    ],
+    "membership": [
+      {
+        "abbreviation": "PERADI",
+        "description": "Indonesian Advocates Association"
+      }
+    ],
+    "experience": [
+      {
+        "year": 2016,
+        "description": "Represent one of the largest plastic manufacturer in Indonesia in Bankruptcy and Suspension of Debt Payment case in the Central Jakarta District Court."
+      },
+      {
+        "year": 2015,
+        "description": "Act as a team member of curator in a bankruptcy proceeding of a public company engaged in property development in Indonesia."
+      },
+      {
+        "year": 2014,
+        "description": "Act as a team member of curator in a bankruptcy proceeding of a public company engaged in the production of paper in Surabaya."
+      }
+    ],
+    "specialization": [
+      {
+        "name": "Arbitration",
+        "rating": 50
+      },
+      {
+        "name": "Corporate Law",
+        "rating": 70
+      },
+      {
+        "name": "Civil Law",
+        "rating": 80
+      },
+      {
+        "name": "Shipping Law",
+        "rating": 90
+      },
+      {
+        "name": "Commercial Disputes",
+        "rating": 60
+      }
+    ],
+    "social": [
+      {
+        "facebook": "http://facebook.com",
+        "twitter": "http://twitter.com",
+        "linkedin": "http://linkedin.com",
+        "googleplus": "http://plus.google.com"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tanya Widjaja Kusumah, S.H.",
+    "nickname": "Tanya",
+    "jobtitle": "Associate",
+    "email": "tanya.kusumah@ap-lawsolution.com",
+    "photo": "images/lawyer_pic/tanya.jpg",
+    "motto": "Hard Worker and Loyal",
+    "story": "Tanya is a high-spirited associate and involved in various complex transactions. She can identify issues and propose applicable solution towards client. Her focus of practice include financing and project financing, mergers and acquisitions, foreign direct investment, and restructuring, with specific emphasis on the HEPP (Hydroelectric Power Plant) project.",
+    "education": [
+      {
+        "title": "Bachelor of Laws",
+        "university": "Faculty of Law University of Atmajaya",
+        "years": 2010
+      }
+    ],
+    "language": [
+      {
+        "name": "Indonesia",
+        "flag": "id",
+        "rating": 90
+      },
+      {
+        "name": "English",
+        "flag": "us",
+        "rating": 80
+      }
+    ],
+    "membership": [
+      {
+        "abbreviation" : "",
+        "description": ""
+      }
+    ],
+    "experience": [
+      {
+        "year": 2016,
+        "description": "Representing a Korean Insurance Company in their bond transaction."
+      },
+      {
+        "year": 2015,
+        "description": "Representing an Indonesian borrower in the restructuring of US$350,000,000 loan by a syndicate of international and local banks made to an Indonesian run-of-river HEPP company."
+      },
+      {
+        "year": 2014,
+        "description": "Participated in the restructuring of a US$165,000,000 loan by a syndicate of international and local banks made to a publicly listed garment company."
+      }
+    ],
+    "specialization": [
+      {
+        "name": "Arbitration",
+        "rating": 50
+      },
+      {
+        "name": "Corporate Law",
+        "rating": 90
+      },
+      {
+        "name": "Civil Law",
+        "rating": 60
+      },
+      {
+        "name": "Shipping Law",
+        "rating": 70
+      },
+      {
+        "name": "Commercial Disputes",
+        "rating": 60
+      }
+    ],
+    "social": [
+      {
+        "facebook": "http://facebook.com",
+        "twitter": "http://twitter.com",
+        "linkedin": "http://linkedin.com",
+        "googleplus": "http://plus.google.com"
+      }
+    ]
+  }
+]

@@ -1,1 +1,6 @@
-h1 Philosophy section
+
+.philosophy-carousel
+  each phil in philosophies
+    .philosophy-item
+      h3(data-paging=`${phil.abbreviation}`) #{phil.title}
+      p #{phil.description}

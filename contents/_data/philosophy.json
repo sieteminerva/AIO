@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Discipline",
+    "abbreviation": "D",
+    "description": "Committed and fully responsible in providing services that would exceed expectation."
+  },
+  {
+    "title": "Honesty",
+    "abbreviation": "J",
+    "description": "Upholding honesty and integrity in our action."
+  },
+  {
+    "title": "Effective And Efficient",
+    "abbreviation": "E",
+    "description": "Ensuring that our work products are always completed as expected and that the work is carried out efficiently."
+  },
+  {
+    "title": "Proficient, Knowledgeable & Meticulous",
+    "abbreviation": "M",
+    "description": "Striving to ensure that the service we provide is thorough and based on a high level of expertise."
+  },
+  {
+    "title": "Proactive",
+    "abbreviation": "P",
+    "description": "Prudent in taking initiatives and always be prepared in facing changes with the utmost care towards work as well as our surroundings."
+  },
+  {
+    "title": "Optimal",
+    "abbreviation": "O",
+    "description": "Always striving to provide the utmost service in assisting clients in reaching its objectives."
+  },
+  {
+    "title": "Loyal",
+    "abbreviation": "L",
+    "description": "Protecting loyalty and confidentiality for the sustainability of the organization."
+  },
+  {
+    "title": "Adaptive",
+    "abbreviation": "A",
+    "description": "Adaptable in all conditions."
+  },
+  {
+    "title": "Added Value",
+    "abbreviation": "N",
+    "description": "Ensuring that all of the services provided and our work products are presented with added values."
+  },
+  {
+    "title": "Creative",
+    "abbreviation": "K",
+    "description": "Capable in presenting original ideas as well as innovation through teamwork."
+  },
+  {
+    "title": "Persistent",
+    "abbreviation": "U",
+    "description": "Strong-willed and persistent in completing our responsibilities despite any difficulties in achieving the objective."
+  }
+]

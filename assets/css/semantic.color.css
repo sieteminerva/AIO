@@ -5730,3 +5730,330 @@ a.ui.inverted.litecream.header:hover {
 .ui.inverted.litecream.menu .active.item {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
+
+/* ----------------------------
+   Current Available Color  
+------------------------------ */
+/* ---------------------------------------------------*
+                            
+              Your Custom Color           
+                                                                         
+------------------------------------------------------*/
+/*----------------------------------------------
+  -------- Specimens of - telek - Grid ------- 
+  ----------------------------------------------*/
+
+ .ui.grid > .row > .telek.column {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.ui.grid > .telek.row,
+.ui.grid > .telek.column,
+.ui.grid > .row > .telek.column {
+  background-color: #e7c85b !important;
+  color: #ffffff;
+}
+/*----------------------------------------------
+  ------ Specimens of - telek - Segment ------ 
+  ----------------------------------------------*/
+
+ .ui.telek.segment:not(.inverted) {
+  border-top: 2px solid #e7c85b;
+}
+.ui.inverted.telek.segment {
+  background-color: #e7c85b !important;
+  color: #ffffff !important;
+}
+/*----------------------------------------------
+  -------- Specimens of - telek - Icon ------- 
+  ----------------------------------------------*/
+
+ i.telek.icon {
+  color: #e7c85b !important;
+}
+i.inverted.telek.icon {
+  color: #eacf71 !important;
+}
+i.bordered.telek.icon,
+i.circular.telek.icon {
+  background-color: #e7c85b !important;
+  color: #ffffff !important;
+}
+/*----------------------------------------------
+  ------- Specimens of - telek - Table ------- 
+  ----------------------------------------------*/
+
+ .ui.telek.table {
+  border-top: 0.2em solid #e7c85b;
+}
+/* Inverted */
+.ui.inverted.telek.table {
+  background-color: #e7c85b !important;
+  color: #ffffff !important;
+}
+.ui.telek.progress .bar {
+  background-color: #e7c85b;
+}
+.ui.inverted.telek.progress .bar {
+  background-color: #eacf71;
+}
+/*----------------------------------------------
+  ------- Specimens of - telek - Dimmer ------ 
+  ----------------------------------------------*/
+
+ .blurring.dimmable > .dimmer {
+  background-color: rgba(231, 200, 91, 0.6);
+}
+.blurring.dimmable > .ui.inverted.telek.dimmer {
+  background-color: rgba(231, 200, 91, 0.6);
+}
+.ui.telek.dimmer {
+  background-color: rgba(231, 200, 91, 0.6) !important;
+  color: #ecc53d !important;
+}
+.ui.telek.dimmer > .content > * {
+  color: #ecc53d !important;
+}
+/*----------------------------------------------
+  ------- Specimens of - telek - Label ------- 
+  ----------------------------------------------*/
+
+ .ui.telek.labels .label,
+.ui.telek.label {
+  background-color: #e7c85b !important;
+  border-color: #e7c85b !important;
+  color: #ffffff !important;
+}
+/* Link */
+.ui.telek.labels .label:hover,
+a.ui.telek.label:hover {
+  background-color: #ecc53d !important;
+  border-color: #ecc53d !important;
+  color: #ffffff !important;
+}
+/* Corner */
+.ui.telek.corner.label,
+.ui.telek.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.telek.ribbon.label {
+  border-color: #e0b92f !important;
+}
+/* Basic */
+.ui.telek.basic.label {
+  background-color: #ffffff !important;
+  color: #e7c85b !important;
+  border-color: #e7c85b !important;
+}
+.ui.telek.labels a.label:hover,
+a.ui.telek.basic.label:hover {
+  background-color: #ffffff !important;
+  color: #ecc53d !important;
+  border-color: #ecc53d !important;
+}
+/*----------------------------------------------
+  ------ Specimens of - telek - Button ------- 
+  ----------------------------------------------*/
+
+ .ui.telek.buttons .button,
+.ui.telek.button {
+  background-color: #e7c85b;
+  color: #ffffff;
+  text-shadow: none;
+  background-image: none;
+}
+.ui.telek.button {
+  box-shadow: 0px 0em 0px 0px rgba(231, 200, 91, 0.15) inset;
+}
+.ui.telek.buttons .button:hover,
+.ui.telek.button:hover {
+  background-color: #ecc53d;
+  color: #ffffff;
+  text-shadow: none;
+}
+.ui.telek.buttons .button:focus,
+.ui.telek.button:focus {
+  background-color: #f3c626;
+  color: #ffffff;
+  text-shadow: none;
+}
+.ui.telek.buttons .button:active,
+.ui.telek.button:active {
+  background-color: #e0b92f;
+  color: #ffffff;
+  text-shadow: none;
+}
+.ui.telek.buttons .active.button,
+.ui.telek.buttons .active.button:active,
+.ui.telek.button.active,
+.ui.telek.button .active.button:active {
+  background-color: #f0c739;
+  color: #ffffff;
+  text-shadow: none;
+}
+/* Basic */
+.ui.basic.telek.buttons .button,
+.ui.basic.telek.button {
+  box-shadow: 0px 0px 0px 1px #e7c85b inset !important;
+  color: #e7c85b !important;
+}
+.ui.basic.telek.buttons .button:hover,
+.ui.basic.telek.button.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #ecc53d inset !important;
+  color: #ecc53d !important;
+}
+.ui.basic.telek.buttons .button:focus,
+.ui.basic.telek.button.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #f3c626 inset !important;
+  color: #ecc53d !important;
+}
+.ui.basic.telek.buttons .active.button,
+.ui.basic.telek.button.button.active {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #f0c739 inset !important;
+  color: #e0b92f !important;
+}
+.ui.basic.telek.buttons .button:active,
+.ui.basic.telek.button.button:active {
+  box-shadow: 0px 0px 0px 1px #e0b92f inset !important;
+  color: #e0b92f !important;
+}
+.ui.buttons:not(.vertical) > .basic.telek.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.ui.inverted.telek.buttons .button,
+.ui.inverted.telek.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(231, 200, 91, 0.1) inset !important;
+  color: rgba(231, 200, 91, 0.1) !important;
+}
+.ui.inverted.telek.buttons .button:hover,
+.ui.inverted.telek.button:hover,
+.ui.inverted.telek.buttons .button:focus,
+.ui.inverted.telek.button:focus,
+.ui.inverted.telek.buttons .button.active,
+.ui.inverted.telek.button.active,
+.ui.inverted.telek.buttons .button:active,
+.ui.inverted.telek.button:active {
+  box-shadow: none !important;
+  color: #ffffff !important;
+}
+.ui.inverted.telek.buttons .button:hover,
+.ui.inverted.telek.button:hover {
+  background-color: rgba(236, 197, 61, 0.1);
+}
+.ui.inverted.telek.buttons .button:focus,
+.ui.inverted.telek.button:focus {
+  background-color: rgba(243, 198, 38, 0.1);
+}
+.ui.inverted.telek.buttons .active.button,
+.ui.inverted.telek.button.active {
+  background-color: rgba(240, 199, 57, 0.1);
+}
+.ui.inverted.telek.buttons .button:active,
+.ui.inverted.telek.button:active {
+  background-color: rgba(224, 185, 47, 0.1);
+}
+/* Inverted Basic */
+.ui.inverted.telek.basic.buttons .button,
+.ui.inverted.telek.buttons .basic.button,
+.ui.inverted.telek.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #ffffff !important;
+}
+.ui.inverted.telek.basic.buttons .button:hover,
+.ui.inverted.telek.buttons .basic.button:hover,
+.ui.inverted.telek.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px rgba(236, 197, 61, 0.1) inset !important;
+  color: rgba(231, 200, 91, 0.1) !important;
+}
+.ui.inverted.telek.basic.buttons .button:focus,
+.ui.inverted.telek.basic.buttons .button:focus,
+.ui.inverted.telek.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px rgba(243, 198, 38, 0.1) inset !important;
+  color: rgba(231, 200, 91, 0.1) !important;
+}
+.ui.inverted.telek.basic.buttons .active.button,
+.ui.inverted.telek.buttons .basic.active.button,
+.ui.inverted.telek.basic.button.active {
+  box-shadow: 0px 0px 0px 2px rgba(240, 199, 57, 0.1) inset !important;
+  color: rgba(231, 200, 91, 0.1) !important;
+}
+.ui.inverted.telek.basic.buttons .button:active,
+.ui.inverted.telek.buttons .basic.button:active,
+.ui.inverted.telek.basic.button:active {
+  box-shadow: 0px 0px 0px 2px rgba(224, 185, 47, 0.1) inset !important;
+  color: rgba(231, 200, 91, 0.1) !important;
+}
+/*----------------------------------------------
+  ------- Specimens of - telek - Card -------- 
+  ----------------------------------------------*/
+
+ .ui.telek.cards > .card,
+.ui.cards > .telek.card,
+.ui.telek.card {
+  box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #e7c85b, 0px 1px 3px 0px #d4d4d5;
+}
+.ui.telek.cards > .card:hover,
+.ui.cards > .telek.card:hover,
+.ui.telek.card:hover {
+  box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #ecc53d, 0px 1px 3px 0px #bcbdbd;
+}
+/*----------------------------------------------
+  ------ Specimens of - telek - Message ------ 
+  ----------------------------------------------*/
+
+ .ui.telek.message {
+  background-color: #eacf71;
+  color: #d6ae1f;
+  box-shadow: 0px 0px 0px 1px #e7c85b inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+.ui.telek.message .header {
+  color: #e4c145;
+}
+/*----------------------------------------------
+  ------- Specimens of - telek - Header ------ 
+  ----------------------------------------------*/
+
+ .ui.telek.header {
+  color: #e7c85b !important;
+}
+a.ui.telek.header:hover {
+  color: #ecc53d !important;
+}
+.ui.dividing.telek.header {
+  border-bottom: 2px solid #e7c85b;
+}
+/* Inverted */
+.ui.inverted.telek.header {
+  color: #eacf71 !important;
+}
+a.ui.inverted.telek.header:hover {
+  color: #eecc54 !important;
+}
+/*----------------------------------------------
+  ------- Specimens of - telek - Menu -------- 
+  ----------------------------------------------*/
+
+ .ui.menu .telek.active.item,
+.ui.telek.menu .active.item {
+  border-color: #e7c85b !important;
+  color: #e7c85b !important;
+}
+.ui.inverted.menu .telek.active.item,
+.ui.inverted.telek.menu {
+  background-color: #e7c85b !important;
+}
+.ui.inverted.telek.menu .item:before {
+  background-color: rgba(34, 36, 38, 0.1);
+}
+.ui.inverted.telek.menu .active.item {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}

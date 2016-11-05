@@ -6,12 +6,13 @@
   "scripts": {
     "start": "npm run open && npm run start:server",
     "open": "start http://localhost:3000",
-    "new": "npm run scaffolding:structure -s",
-    "clean": "npm run removing:structure -s",
-    "scaffolding:structure": "mkdirp _kitchen/css _kitchen/public/js && touch _kitchen/public/index.html",
-    "removing:structure": "rimraf _kitchen",
     "start:server": "nodemon server.js",
-    "pug:compile": "pug --obj ./site-config.json ./src --pretty --out ./dist",
+    "new": "npm run scaffolding:structure -s",
+    "scaffolding:structure": "mkdirp",
+    "build": "npm run clean:build -s && npm run pug:compile && npm run copy:assets",
+    "clean:build": "rimraf ./dist/",
+    "copy:assets": "cpx ./assets/**/* ./dist/assets",
+    "pug:compile": "pug --obj ./data.json ./src/index.pug --pretty --out ./dist",
     "pug:watch": "pug ./site-config.json ./src --watch",
     "less:compile": "lessc ./src ./dist"
   },
@@ -31,6 +32,7 @@
   },
   "devDependencies": {
     "connect-livereload": "^0.6.0",
+    "cpx": "^1.5.0",
     "livereload": "^0.6.0",
     "markdown-it-decorate": "^1.2.1",
     "nodemon": "^1.11.0"

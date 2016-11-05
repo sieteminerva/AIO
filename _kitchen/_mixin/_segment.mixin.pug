@@ -13,3 +13,20 @@ mixin segment(group, color, attached, model)
   if group === 'horizontal'
     div&attributes(segmentType)
       block
+
+
+//- Usage
+
+//- example using random parameter
+  mixin grid(...style)
+      .flex(class=style.join(" "))
+          block
+
+  mixin col(width, ...style)
+      .col(class="col-" + width + " " + style.join(" "))
+          block
+
+  //- Usage
+  +grid("border", "p2")
+      each column in [ "one", "two", "three", "four"]
+          +col(6, "border", "p1", "m1") Column #{column}

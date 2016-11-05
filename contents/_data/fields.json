@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Arbitration",
+    "image": "aplaw arbitration",
+    "description": "arbitration description"
+  },
+  {
+    "name": "Corporate Law",
+    "image": "aplaw corporate",
+    "description": "corporate law description"
+  },
+  {
+    "name": "Criminal Law",
+    "image": "aplaw litigation",
+    "description": "criminal litigation description"
+  },
+  {
+    "name": "Commercial Dispute",
+    "image": "aplaw commercial",
+    "description": "commercial dispute description"
+  },
+  {
+    "name": "Shipping Law",
+    "image": "aplaw shipment field",
+    "description": "shipping law description"
+  }
+]

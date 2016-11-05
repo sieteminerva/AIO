@@ -1,0 +1,55 @@
+/*
+  philosophy carousel
+
+ */
+@import url(https://fonts.googleapis.com/css?family=Raleway:500,900);
+
+.philosophy-carousel {
+  display: block;
+  min-height: 200px !important;
+}
+
+.philosophy-item {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+.philosophy-item h3 {
+  position: relative;
+  margin: auto;
+  font-size: 3rem;
+  font-weight: 900;
+  transform: translateY(30px);
+  transition: all 0.35s ease;
+}
+
+
+.philosophy-item:hover h3 {
+
+  transform: translateY(-10px);
+  transition: all 0.35s ease;
+}
+
+.philosophy-item p {
+  opacity: 1;
+  font-weight: 500;
+  transform: translateY(250px);
+  transition: all 0.35s ease;
+}
+.philosophy-item:hover p {
+  opacity: 1;
+  transform: translateY(-15px);
+  transition: all 0.35s ease;
+}
+
+.paging, .paging:before {
+  color: #FFF !important;
+  font-size: 1.5em !important;
+  transition: all 0.35s ease;
+}
+.paging:hover {
+  color: #000 !important;
+  transition: all 0.35s ease;
+}
+

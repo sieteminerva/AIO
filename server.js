@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 var fs = require('fs');
 var path = require('path');
-
+var pug = require('pug');
 
 app.set('view engine', 'pug');
 
@@ -32,9 +32,21 @@ app.use(express.static(__dirname + '/assets'));
 app.use(express.static(__dirname + '/_kitchen'));
 
 app.get('/', function(req, res){
-  var pugConfig = fs.readFileSync('site-config.json');
-  var _site = JSON.parse(pugConfig);
-  res.render('index', {site: _site});
+
+  function data(file){
+    return JSON.parse(fs.readFileSync(file));
+  }
+
+  res.render('index', {
+    site: data('site-config.json'),
+    staffs: data('contents/_data/staff.json'),
+    fields: data('contents/_data/fields.json'),
+    philosophies: data('contents/_data/philosophy.json'),
+    services: data('contents/_data/service.json'),
+    experiences: data('contents/_data/experience.json'),
+    publications: data('contents/_data/publication.json'),
+  });
+
 });
 
 app.listen(3000, function () {

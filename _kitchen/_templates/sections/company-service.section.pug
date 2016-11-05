@@ -1,1 +1,47 @@
-h1 Company Service
+each staff in staffs
+  .ui.two.column.padded.grid
+    .four.wide.column
+      img.ui.image(src=staff.photo)
+    .twelve.wide.column
+      .ui.padded.grid
+        .two.column.row
+          .ten.wide.column
+              .ui.header
+                .content
+                  | #{staff.name} /
+                  span.email #{staff.email}
+                  .sub.header
+                    span.jobtitle #{staff.jobtitle}
+                    span /
+                    span.motto #{staff.motto}
+              p #{staff.story}
+              .ui.dividing.header Education
+              each education in staff.education
+                .header #{education.title}
+                .meta #{education.university}
+
+              .ui.dividing.header Experience
+              each experience in staff.experience
+                .header #{experience.year}
+                .meta #{experience.description}
+
+              .ui.dividing.header Affiliation
+              each membership in staff.membership
+                .header #{membership.abbreviation}
+                .meta #{membership.description}
+
+          .six.wide.column
+            .ui.dividing.header Language Skill
+            .ui.horizontal.segments.transparent
+              each language in staff.language
+                .ui.center.aligned.segment
+                  .value.text.flatgold #{language.rating}%
+                  .circle(data-value=`0.${language.rating}`
+                  data-size="100" data-reverse="true")
+                  .text.flatgold #{language.name}
+
+            .ui.dividing.header Specialization
+            each specialization in staff.specialization
+              .ui.olive.small.progress(data-percent= specialization.rating)
+                .label #{specialization.name}
+                .bar

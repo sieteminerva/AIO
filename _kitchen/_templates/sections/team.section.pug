@@ -1,1 +1,13 @@
-h1 Team Section
+.ui.carousel
+  each staff in staffs
+    figure.team.carousel
+      img(src= staff.photo)
+      figcaption
+        h3 #{staff.nickname}
+        h5 #{staff.jobtitle}
+        p #{staff.motto}
+        a(class=`show profile ${staff.id}`) View Profile
+
+//- Profile Modal
+include ../blocks/profile.modal.pug
+

@@ -10,17 +10,25 @@ main.ui.padded.grid
 
   block intro-section
     +section('Intro')
+      include ../sections/intro.section.pug
   block company-fields
     +section('Company Fields')
+      include ../sections/company-fields.section.pug
   block philosophy
-    +section('Philosophy', 'purple')
+    +section('Philosophy', 'purple middle aligned')
+      include ../sections/philosophy.section.pug
   block team
-    +section('Team', 'yellow')
+    +section('Team', 'middle aligned')
+      include ../sections/team.section.pug
   block company-service
     +section('Service', 'teal')
+      include ../sections/company-service.section.pug
   block company-experience
     +section('Experience', 'flatgold')
+      include ../sections/company-experience.section.pug
   block articles
     +section('Philosophy', 'darkgreen')
+      include ../sections/articles.section.pug
   block company-info
     +section('Company Info', 'grey')
+      include ../sections/company-info.section.pug

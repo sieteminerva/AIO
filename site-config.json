@@ -9,13 +9,17 @@
 
 	},
   "scripts": [
-    "libs/jquery.min.js",
-    "libs/semantic.min.js",
-    "libs/scripts.js"
+    "libs/jquery/jquery.min.js",
+    "libs/semantic/semantic.min.js",
+    "libs/slick/slick.min.js",
+    "libs/progress/circle-progress.js",
+    "js/scripts.js"
   ],
   "styles": [
-    "libs/semantic.min.css",
-    "libs/semantic.color.css",
+    "libs/semantic/semantic.min.css",
+    "css/semantic.color.css",
+    "libs/slick/slick-theme.css",
+    "libs/slick/slick.css",
     "css/main.css"
   ]
 }
