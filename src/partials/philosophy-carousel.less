@@ -4,6 +4,7 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Raleway:500,900);
 
+
 .philosophy-carousel {
   display: block;
   min-height: 200px !important;
@@ -43,13 +44,32 @@
   transition: all 0.35s ease;
 }
 
+.slick-dots {
+  position: absolute;
+  bottom: -44px;
+  display: block;
+  width: 40%;
+  padding: 1em;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  background-color: #A38528;
+}
+
 .paging, .paging:before {
   color: #FFF !important;
   font-size: 1.5em !important;
   transition: all 0.35s ease;
 }
 .paging:hover {
-  color: #000 !important;
+  position: relative;
+  font-size: 1.6em !important;
+  color: rgba(255,255,255, 0.6) !important;
   transition: all 0.35s ease;
 }
 
+.slick-active > .paging{
+  color: rgba(255,255,255, 0.6) !important;
+  font-size: 1.7em !important;
+  font-weight: bold;
+}

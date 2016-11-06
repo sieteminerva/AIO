@@ -24,7 +24,7 @@ $(document).ready(function() {
     $('.ui.carousel').slick({
         arrows: true,
         infinite: true,
-        autoplay: true,
+        autoplay: false,
         slidesToShow: 4,
         swipe: true,
         focusOnSelect: false,
@@ -70,7 +70,7 @@ $(document).ready(function() {
         },
         cssEase: 'linear',
         infinite: true,
-        autoplay: true,
+        autoplay: false,
         slidesToShow: 1,
         centerPadding: '100px',
         focusOnSelect: false,

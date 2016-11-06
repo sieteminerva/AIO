@@ -1,38 +1,61 @@
 each staff in staffs
   div(class=`ui modal ${staff.id}`)
-    .ui.two.column.padded.grid
+    .ui.two.column.padded.grid.stackable
       .four.wide.column
-        img.ui.image(src= staff.photo)
+        img.ui.image(src=staff.photo)
+        .ui.big.flatgold.header
+          .motto #{staff.motto}
       .twelve.wide.column
-        .ui.padded.grid
+        .ui.padded.grid.stackable
           .two.column.row
             .ten.wide.column
-                .ui.header
+                .ui.header.name
                   .content
-                    | #{staff.name} /
-                    span.email #{staff.email}
+                    | #{staff.name}
                     .sub.header
                       span.jobtitle #{staff.jobtitle}
-                      span /
-                      span.motto #{staff.motto}
-                p #{staff.story}
-                .ui.dividing.header Education
+                      span  /
+                      a.email
+                       |  #{staff.email}
+
+                p.story #{staff.story}
+                .ui.header.bottom.bordered
+                  i.student.icon
+                  | Education
                 each education in staff.education
-                  .header #{education.title}
-                  .meta #{education.university}
+                  .ui.list
+                    .item
+                      i.folder.open.icon
+                      .content
+                        .header #{education.title}
+                        .description #{education.university}
 
-                .ui.dividing.header Experience
+                .ui.header.bottom.bordered
+                  i.law.icon
+                  | Experience
                 each experience in staff.experience
-                  .header #{experience.year}
-                  .meta #{experience.description}
+                  .ui.list
+                    .item
+                      i.check.square.icon
+                      .content
+                        .header #{experience.year}
+                        .description #{experience.description}
 
-                .ui.dividing.header Affiliation
+                .ui.header.bottom.bordered
+                  i.bookmark.icon
+                  | Affiliation
                 each membership in staff.membership
-                  .header #{membership.abbreviation}
-                  .meta #{membership.description}
+                  .ui.list
+                    .item
+                      i.certificate.icon
+                      .content
+                        .header #{membership.abbreviation}
+                        .description #{membership.description}
 
-            .six.wide.column
-              .ui.dividing.header Language Skill
+            .six.wide.litecream.column
+              .ui.header.bottom.bordered
+                  i.translate.icon
+                  | Language Skill
               .ui.horizontal.segments.transparent
                 each language in staff.language
                   .ui.center.aligned.segment
@@ -41,8 +64,11 @@ each staff in staffs
                     data-size="80" data-reverse="true")
                     .text.flatgold #{language.name}
 
-              .ui.dividing.header Specialization
+              .ui.header.bottom.bordered
+                  i.legal.icon
+                  | Specialization
               each specialization in staff.specialization
-                .ui.olive.small.progress(data-percent= specialization.rating)
-                  .label #{specialization.name}
+                .ui.olive.small.progress.specialization(data-percent= specialization.rating)
+                  .label.top.left.aligned #{specialization.name}
+                  .label.top.right.aligned #{specialization.rating}%
                   .bar
