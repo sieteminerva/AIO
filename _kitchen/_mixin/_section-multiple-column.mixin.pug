@@ -10,9 +10,8 @@ mixin section-multiple-columns(totalColumn, background, model)
     section&attributes(columnInGrid)
       block
   else if model === 'row'
-    section.ui.padded.grid
-      div&attributes(columnInRow)
-        block
+    section&attributes(columnInRow)
+      block
   else
     section&attributes(columnInGrid)
       block

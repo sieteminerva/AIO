@@ -1,1 +1,10 @@
-h1 Company Service
+.ui.three.column.grid
+  each service in services
+    .column
+      .ui.center.aligned.header #{service.category}
+      each item in service.items
+        .ui.list
+          .item
+            i.clock.icon
+            .content
+              p.description #{item}

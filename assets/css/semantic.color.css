@@ -1,8 +1,335 @@
 /* ----------------------------
-	 Current Available Color  
+	 Current Available Color
 ------------------------------ */
+/* ----------------------------
+   Current Available Color
+------------------------------ */
+/* ---------------------------------------------------*
+
+              Your Custom Color
+
+------------------------------------------------------*/
 /*----------------------------------------------
-  -------- Specimens of - red - Grid ------- 
+  -------- Specimens of - hanif - Grid -------
+  ----------------------------------------------*/
+
+ .ui.grid > .row > .hanif.column {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.ui.grid > .hanif.row,
+.ui.grid > .hanif.column,
+.ui.grid > .row > .hanif.column {
+  background-color: #869972 !important;
+  color: #ffffff;
+}
+/*----------------------------------------------
+  ------ Specimens of - hanif - Segment ------
+  ----------------------------------------------*/
+
+ .ui.hanif.segment:not(.inverted) {
+  border-top: 2px solid #869972;
+}
+.ui.inverted.hanif.segment {
+  background-color: #869972 !important;
+  color: #ffffff !important;
+}
+/*----------------------------------------------
+  -------- Specimens of - hanif - Icon -------
+  ----------------------------------------------*/
+
+ i.hanif.icon {
+  color: #869972 !important;
+}
+i.inverted.hanif.icon {
+  color: #93a481 !important;
+}
+i.bordered.hanif.icon,
+i.circular.hanif.icon {
+  background-color: #869972 !important;
+  color: #ffffff !important;
+}
+/*----------------------------------------------
+  ------- Specimens of - hanif - Table -------
+  ----------------------------------------------*/
+
+ .ui.hanif.table {
+  border-top: 0.2em solid #869972;
+}
+/* Inverted */
+.ui.inverted.hanif.table {
+  background-color: #869972 !important;
+  color: #ffffff !important;
+}
+.ui.hanif.progress .bar {
+  background-color: #869972;
+}
+.ui.inverted.hanif.progress .bar {
+  background-color: #93a481;
+}
+/*----------------------------------------------
+  ------- Specimens of - hanif - Dimmer ------
+  ----------------------------------------------*/
+
+ .blurring.dimmable > .dimmer {
+  background-color: rgba(134, 153, 114, 0.6);
+}
+.blurring.dimmable > .ui.inverted.hanif.dimmer {
+  background-color: rgba(134, 153, 114, 0.6);
+}
+.ui.hanif.dimmer {
+  background-color: rgba(134, 153, 114, 0.6) !important;
+  color: #798e63 !important;
+}
+.ui.hanif.dimmer > .content > * {
+  color: #798e63 !important;
+}
+/*----------------------------------------------
+  ------- Specimens of - hanif - Label -------
+  ----------------------------------------------*/
+
+ .ui.hanif.labels .label,
+.ui.hanif.label {
+  background-color: #869972 !important;
+  border-color: #869972 !important;
+  color: #ffffff !important;
+}
+/* Link */
+.ui.hanif.labels .label:hover,
+a.ui.hanif.label:hover {
+  background-color: #798e63 !important;
+  border-color: #798e63 !important;
+  color: #ffffff !important;
+}
+/* Corner */
+.ui.hanif.corner.label,
+.ui.hanif.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.hanif.ribbon.label {
+  border-color: #6c7d5b !important;
+}
+/* Basic */
+.ui.hanif.basic.label {
+  background-color: #ffffff !important;
+  color: #869972 !important;
+  border-color: #869972 !important;
+}
+.ui.hanif.labels a.label:hover,
+a.ui.hanif.basic.label:hover {
+  background-color: #ffffff !important;
+  color: #798e63 !important;
+  border-color: #798e63 !important;
+}
+/*----------------------------------------------
+  ------ Specimens of - hanif - Button -------
+  ----------------------------------------------*/
+
+ .ui.hanif.buttons .button,
+.ui.hanif.button {
+  background-color: #869972;
+  color: #ffffff;
+  text-shadow: none;
+  background-image: none;
+}
+.ui.hanif.button {
+  box-shadow: 0px 0em 0px 0px rgba(134, 153, 114, 0.15) inset;
+}
+.ui.hanif.buttons .button:hover,
+.ui.hanif.button:hover {
+  background-color: #798e63;
+  color: #ffffff;
+  text-shadow: none;
+}
+.ui.hanif.buttons .button:focus,
+.ui.hanif.button:focus {
+  background-color: #72875b;
+  color: #ffffff;
+  text-shadow: none;
+}
+.ui.hanif.buttons .button:active,
+.ui.hanif.button:active {
+  background-color: #6c7d5b;
+  color: #ffffff;
+  text-shadow: none;
+}
+.ui.hanif.buttons .active.button,
+.ui.hanif.buttons .active.button:active,
+.ui.hanif.button.active,
+.ui.hanif.button .active.button:active {
+  background-color: #798f62;
+  color: #ffffff;
+  text-shadow: none;
+}
+/* Basic */
+.ui.basic.hanif.buttons .button,
+.ui.basic.hanif.button {
+  box-shadow: 0px 0px 0px 1px #869972 inset !important;
+  color: #869972 !important;
+}
+.ui.basic.hanif.buttons .button:hover,
+.ui.basic.hanif.button.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #798e63 inset !important;
+  color: #798e63 !important;
+}
+.ui.basic.hanif.buttons .button:focus,
+.ui.basic.hanif.button.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #72875b inset !important;
+  color: #798e63 !important;
+}
+.ui.basic.hanif.buttons .active.button,
+.ui.basic.hanif.button.button.active {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px #798f62 inset !important;
+  color: #6c7d5b !important;
+}
+.ui.basic.hanif.buttons .button:active,
+.ui.basic.hanif.button.button:active {
+  box-shadow: 0px 0px 0px 1px #6c7d5b inset !important;
+  color: #6c7d5b !important;
+}
+.ui.buttons:not(.vertical) > .basic.hanif.button:not(:first-child) {
+  margin-left: -1px;
+}
+/* Inverted */
+.ui.inverted.hanif.buttons .button,
+.ui.inverted.hanif.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(134, 153, 114, 0.1) inset !important;
+  color: rgba(134, 153, 114, 0.1) !important;
+}
+.ui.inverted.hanif.buttons .button:hover,
+.ui.inverted.hanif.button:hover,
+.ui.inverted.hanif.buttons .button:focus,
+.ui.inverted.hanif.button:focus,
+.ui.inverted.hanif.buttons .button.active,
+.ui.inverted.hanif.button.active,
+.ui.inverted.hanif.buttons .button:active,
+.ui.inverted.hanif.button:active {
+  box-shadow: none !important;
+  color: #ffffff !important;
+}
+.ui.inverted.hanif.buttons .button:hover,
+.ui.inverted.hanif.button:hover {
+  background-color: rgba(121, 142, 99, 0.1);
+}
+.ui.inverted.hanif.buttons .button:focus,
+.ui.inverted.hanif.button:focus {
+  background-color: rgba(114, 135, 91, 0.1);
+}
+.ui.inverted.hanif.buttons .active.button,
+.ui.inverted.hanif.button.active {
+  background-color: rgba(121, 143, 98, 0.1);
+}
+.ui.inverted.hanif.buttons .button:active,
+.ui.inverted.hanif.button:active {
+  background-color: rgba(108, 125, 91, 0.1);
+}
+/* Inverted Basic */
+.ui.inverted.hanif.basic.buttons .button,
+.ui.inverted.hanif.buttons .basic.button,
+.ui.inverted.hanif.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #ffffff !important;
+}
+.ui.inverted.hanif.basic.buttons .button:hover,
+.ui.inverted.hanif.buttons .basic.button:hover,
+.ui.inverted.hanif.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px rgba(121, 142, 99, 0.1) inset !important;
+  color: rgba(134, 153, 114, 0.1) !important;
+}
+.ui.inverted.hanif.basic.buttons .button:focus,
+.ui.inverted.hanif.basic.buttons .button:focus,
+.ui.inverted.hanif.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px rgba(114, 135, 91, 0.1) inset !important;
+  color: rgba(134, 153, 114, 0.1) !important;
+}
+.ui.inverted.hanif.basic.buttons .active.button,
+.ui.inverted.hanif.buttons .basic.active.button,
+.ui.inverted.hanif.basic.button.active {
+  box-shadow: 0px 0px 0px 2px rgba(121, 143, 98, 0.1) inset !important;
+  color: rgba(134, 153, 114, 0.1) !important;
+}
+.ui.inverted.hanif.basic.buttons .button:active,
+.ui.inverted.hanif.buttons .basic.button:active,
+.ui.inverted.hanif.basic.button:active {
+  box-shadow: 0px 0px 0px 2px rgba(108, 125, 91, 0.1) inset !important;
+  color: rgba(134, 153, 114, 0.1) !important;
+}
+/*----------------------------------------------
+  ------- Specimens of - hanif - Card --------
+  ----------------------------------------------*/
+
+ .ui.hanif.cards > .card,
+.ui.cards > .hanif.card,
+.ui.hanif.card {
+  box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #869972, 0px 1px 3px 0px #d4d4d5;
+}
+.ui.hanif.cards > .card:hover,
+.ui.cards > .hanif.card:hover,
+.ui.hanif.card:hover {
+  box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #798e63, 0px 1px 3px 0px #bcbdbd;
+}
+/*----------------------------------------------
+  ------ Specimens of - hanif - Message ------
+  ----------------------------------------------*/
+
+ .ui.hanif.message {
+  background-color: #93a481;
+  color: #606f50;
+  box-shadow: 0px 0px 0px 1px #869972 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+.ui.hanif.message .header {
+  color: #798c65;
+}
+/*----------------------------------------------
+  ------- Specimens of - hanif - Header ------
+  ----------------------------------------------*/
+
+ .ui.hanif.header {
+  color: #869972 !important;
+}
+a.ui.hanif.header:hover {
+  color: #798e63 !important;
+}
+.ui.dividing.hanif.header {
+  border-bottom: 2px solid #869972;
+}
+/* Inverted */
+.ui.inverted.hanif.header {
+  color: #93a481 !important;
+}
+a.ui.inverted.hanif.header:hover {
+  color: #869b70 !important;
+}
+/*----------------------------------------------
+  ------- Specimens of - hanif - Menu --------
+  ----------------------------------------------*/
+
+ .ui.menu .hanif.active.item,
+.ui.hanif.menu .active.item {
+  border-color: #869972 !important;
+  color: #869972 !important;
+}
+.ui.inverted.menu .hanif.active.item,
+.ui.inverted.hanif.menu {
+  background-color: #869972 !important;
+}
+.ui.inverted.hanif.menu .item:before {
+  background-color: rgba(34, 36, 38, 0.1);
+}
+.ui.inverted.hanif.menu .active.item {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/*----------------------------------------------
+  -------- Specimens of - red - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .red.column {
@@ -18,7 +345,7 @@
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - red - Segment ------ 
+  ------ Specimens of - red - Segment ------
   ----------------------------------------------*/
 
  .ui.red.segment:not(.inverted) {
@@ -29,7 +356,7 @@
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - red - Icon ------- 
+  -------- Specimens of - red - Icon -------
   ----------------------------------------------*/
 
  i.red.icon {
@@ -44,7 +371,7 @@ i.circular.red.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - red - Table ------- 
+  ------- Specimens of - red - Table -------
   ----------------------------------------------*/
 
  .ui.red.table {
@@ -62,7 +389,7 @@ i.circular.red.icon {
   background-color: #f26456;
 }
 /*----------------------------------------------
-  ------- Specimens of - red - Dimmer ------ 
+  ------- Specimens of - red - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -79,7 +406,7 @@ i.circular.red.icon {
   color: #f8301c !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - red - Label ------- 
+  ------- Specimens of - red - Label -------
   ----------------------------------------------*/
 
  .ui.red.labels .label,
@@ -117,7 +444,7 @@ a.ui.red.basic.label:hover {
   border-color: #f8301c !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - red - Button ------- 
+  ------ Specimens of - red - Button -------
   ----------------------------------------------*/
 
  .ui.red.buttons .button,
@@ -255,7 +582,7 @@ a.ui.red.basic.label:hover {
   color: rgba(240, 78, 62, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - red - Card -------- 
+  ------- Specimens of - red - Card --------
   ----------------------------------------------*/
 
  .ui.red.cards > .card,
@@ -269,7 +596,7 @@ a.ui.red.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #f8301c, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - red - Message ------ 
+  ------ Specimens of - red - Message ------
   ----------------------------------------------*/
 
  .ui.red.message {
@@ -281,7 +608,7 @@ a.ui.red.basic.label:hover {
   color: #ee3826;
 }
 /*----------------------------------------------
-  ------- Specimens of - red - Header ------ 
+  ------- Specimens of - red - Header ------
   ----------------------------------------------*/
 
  .ui.red.header {
@@ -301,7 +628,7 @@ a.ui.inverted.red.header:hover {
   color: #f94735 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - red - Menu -------- 
+  ------- Specimens of - red - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .red.active.item,
@@ -320,7 +647,7 @@ a.ui.inverted.red.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - orange - Grid ------- 
+  -------- Specimens of - orange - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .orange.column {
@@ -336,7 +663,7 @@ a.ui.inverted.red.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - orange - Segment ------ 
+  ------ Specimens of - orange - Segment ------
   ----------------------------------------------*/
 
  .ui.orange.segment:not(.inverted) {
@@ -347,7 +674,7 @@ a.ui.inverted.red.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - orange - Icon ------- 
+  -------- Specimens of - orange - Icon -------
   ----------------------------------------------*/
 
  i.orange.icon {
@@ -362,7 +689,7 @@ i.circular.orange.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - orange - Table ------- 
+  ------- Specimens of - orange - Table -------
   ----------------------------------------------*/
 
  .ui.orange.table {
@@ -380,7 +707,7 @@ i.circular.orange.icon {
   background-color: #f38034;
 }
 /*----------------------------------------------
-  ------- Specimens of - orange - Dimmer ------ 
+  ------- Specimens of - orange - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -397,7 +724,7 @@ i.circular.orange.icon {
   color: #f26202 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - orange - Label ------- 
+  ------- Specimens of - orange - Label -------
   ----------------------------------------------*/
 
  .ui.orange.labels .label,
@@ -435,7 +762,7 @@ a.ui.orange.basic.label:hover {
   border-color: #f26202 !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - orange - Button ------- 
+  ------ Specimens of - orange - Button -------
   ----------------------------------------------*/
 
  .ui.orange.buttons .button,
@@ -573,7 +900,7 @@ a.ui.orange.basic.label:hover {
   color: rgba(242, 113, 28, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - orange - Card -------- 
+  ------- Specimens of - orange - Card --------
   ----------------------------------------------*/
 
  .ui.orange.cards > .card,
@@ -587,7 +914,7 @@ a.ui.orange.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #f26202, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - orange - Message ------ 
+  ------ Specimens of - orange - Message ------
   ----------------------------------------------*/
 
  .ui.orange.message {
@@ -599,7 +926,7 @@ a.ui.orange.basic.label:hover {
   color: #e7640d;
 }
 /*----------------------------------------------
-  ------- Specimens of - orange - Header ------ 
+  ------- Specimens of - orange - Header ------
   ----------------------------------------------*/
 
  .ui.orange.header {
@@ -619,7 +946,7 @@ a.ui.inverted.orange.header:hover {
   color: #fd6f11 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - orange - Menu -------- 
+  ------- Specimens of - orange - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .orange.active.item,
@@ -638,7 +965,7 @@ a.ui.inverted.orange.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - yellow - Grid ------- 
+  -------- Specimens of - yellow - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .yellow.column {
@@ -654,7 +981,7 @@ a.ui.inverted.orange.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - yellow - Segment ------ 
+  ------ Specimens of - yellow - Segment ------
   ----------------------------------------------*/
 
  .ui.yellow.segment:not(.inverted) {
@@ -665,7 +992,7 @@ a.ui.inverted.orange.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - yellow - Icon ------- 
+  -------- Specimens of - yellow - Icon -------
   ----------------------------------------------*/
 
  i.yellow.icon {
@@ -680,7 +1007,7 @@ i.circular.yellow.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - yellow - Table ------- 
+  ------- Specimens of - yellow - Table -------
   ----------------------------------------------*/
 
  .ui.yellow.table {
@@ -698,7 +1025,7 @@ i.circular.yellow.icon {
   background-color: #fbc421;
 }
 /*----------------------------------------------
-  ------- Specimens of - yellow - Dimmer ------ 
+  ------- Specimens of - yellow - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -715,7 +1042,7 @@ i.circular.yellow.icon {
   color: #eaae00 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - yellow - Label ------- 
+  ------- Specimens of - yellow - Label -------
   ----------------------------------------------*/
 
  .ui.yellow.labels .label,
@@ -753,7 +1080,7 @@ a.ui.yellow.basic.label:hover {
   border-color: #eaae00 !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - yellow - Button ------- 
+  ------ Specimens of - yellow - Button -------
   ----------------------------------------------*/
 
  .ui.yellow.buttons .button,
@@ -891,7 +1218,7 @@ a.ui.yellow.basic.label:hover {
   color: rgba(251, 189, 8, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - yellow - Card -------- 
+  ------- Specimens of - yellow - Card --------
   ----------------------------------------------*/
 
  .ui.yellow.cards > .card,
@@ -905,7 +1232,7 @@ a.ui.yellow.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #eaae00, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - yellow - Message ------ 
+  ------ Specimens of - yellow - Message ------
   ----------------------------------------------*/
 
  .ui.yellow.message {
@@ -917,7 +1244,7 @@ a.ui.yellow.basic.label:hover {
   color: #e6ac04;
 }
 /*----------------------------------------------
-  ------- Specimens of - yellow - Header ------ 
+  ------- Specimens of - yellow - Header ------
   ----------------------------------------------*/
 
  .ui.yellow.header {
@@ -937,7 +1264,7 @@ a.ui.inverted.yellow.header:hover {
   color: #ffbf04 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - yellow - Menu -------- 
+  ------- Specimens of - yellow - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .yellow.active.item,
@@ -956,7 +1283,7 @@ a.ui.inverted.yellow.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - olive - Grid ------- 
+  -------- Specimens of - olive - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .olive.column {
@@ -972,7 +1299,7 @@ a.ui.inverted.yellow.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - olive - Segment ------ 
+  ------ Specimens of - olive - Segment ------
   ----------------------------------------------*/
 
  .ui.olive.segment:not(.inverted) {
@@ -983,7 +1310,7 @@ a.ui.inverted.yellow.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - olive - Icon ------- 
+  -------- Specimens of - olive - Icon -------
   ----------------------------------------------*/
 
  i.olive.icon {
@@ -998,7 +1325,7 @@ i.circular.olive.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - olive - Table ------- 
+  ------- Specimens of - olive - Table -------
   ----------------------------------------------*/
 
  .ui.olive.table {
@@ -1016,7 +1343,7 @@ i.circular.olive.icon {
   background-color: #c9e31b;
 }
 /*----------------------------------------------
-  ------- Specimens of - olive - Dimmer ------ 
+  ------- Specimens of - olive - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -1033,7 +1360,7 @@ i.circular.olive.icon {
   color: #a7bd0d !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - olive - Label ------- 
+  ------- Specimens of - olive - Label -------
   ----------------------------------------------*/
 
  .ui.olive.labels .label,
@@ -1071,7 +1398,7 @@ a.ui.olive.basic.label:hover {
   border-color: #a7bd0d !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - olive - Button ------- 
+  ------ Specimens of - olive - Button -------
   ----------------------------------------------*/
 
  .ui.olive.buttons .button,
@@ -1209,7 +1536,7 @@ a.ui.olive.basic.label:hover {
   color: rgba(181, 204, 24, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - olive - Card -------- 
+  ------- Specimens of - olive - Card --------
   ----------------------------------------------*/
 
  .ui.olive.cards > .card,
@@ -1223,7 +1550,7 @@ a.ui.olive.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #a7bd0d, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - olive - Message ------ 
+  ------ Specimens of - olive - Message ------
   ----------------------------------------------*/
 
  .ui.olive.message {
@@ -1235,7 +1562,7 @@ a.ui.olive.basic.label:hover {
   color: #a1b515;
 }
 /*----------------------------------------------
-  ------- Specimens of - olive - Header ------ 
+  ------- Specimens of - olive - Header ------
   ----------------------------------------------*/
 
  .ui.olive.header {
@@ -1255,7 +1582,7 @@ a.ui.inverted.olive.header:hover {
   color: #bcd50f !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - olive - Menu -------- 
+  ------- Specimens of - olive - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .olive.active.item,
@@ -1274,7 +1601,7 @@ a.ui.inverted.olive.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - green - Grid ------- 
+  -------- Specimens of - green - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .green.column {
@@ -1290,7 +1617,7 @@ a.ui.inverted.olive.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - green - Segment ------ 
+  ------ Specimens of - green - Segment ------
   ----------------------------------------------*/
 
  .ui.green.segment:not(.inverted) {
@@ -1301,7 +1628,7 @@ a.ui.inverted.olive.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - green - Icon ------- 
+  -------- Specimens of - green - Icon -------
   ----------------------------------------------*/
 
  i.green.icon {
@@ -1316,7 +1643,7 @@ i.circular.green.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - green - Table ------- 
+  ------- Specimens of - green - Table -------
   ----------------------------------------------*/
 
  .ui.green.table {
@@ -1334,7 +1661,7 @@ i.circular.green.icon {
   background-color: #c1e1b7;
 }
 /*----------------------------------------------
-  ------- Specimens of - green - Dimmer ------ 
+  ------- Specimens of - green - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -1351,7 +1678,7 @@ i.circular.green.icon {
   color: #a1d590 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - green - Label ------- 
+  ------- Specimens of - green - Label -------
   ----------------------------------------------*/
 
  .ui.green.labels .label,
@@ -1389,7 +1716,7 @@ a.ui.green.basic.label:hover {
   border-color: #a1d590 !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - green - Button ------- 
+  ------ Specimens of - green - Button -------
   ----------------------------------------------*/
 
  .ui.green.buttons .button,
@@ -1527,7 +1854,7 @@ a.ui.green.basic.label:hover {
   color: rgba(178, 217, 165, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - green - Card -------- 
+  ------- Specimens of - green - Card --------
   ----------------------------------------------*/
 
  .ui.green.cards > .card,
@@ -1541,7 +1868,7 @@ a.ui.green.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #a1d590, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - green - Message ------ 
+  ------ Specimens of - green - Message ------
   ----------------------------------------------*/
 
  .ui.green.message {
@@ -1553,7 +1880,7 @@ a.ui.green.basic.label:hover {
   color: #a3d193;
 }
 /*----------------------------------------------
-  ------- Specimens of - green - Header ------ 
+  ------- Specimens of - green - Header ------
   ----------------------------------------------*/
 
  .ui.green.header {
@@ -1573,7 +1900,7 @@ a.ui.inverted.green.header:hover {
   color: #b1dca2 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - green - Menu -------- 
+  ------- Specimens of - green - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .green.active.item,
@@ -1592,7 +1919,7 @@ a.ui.inverted.green.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - teal - Grid ------- 
+  -------- Specimens of - teal - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .teal.column {
@@ -1608,7 +1935,7 @@ a.ui.inverted.green.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - teal - Segment ------ 
+  ------ Specimens of - teal - Segment ------
   ----------------------------------------------*/
 
  .ui.teal.segment:not(.inverted) {
@@ -1619,7 +1946,7 @@ a.ui.inverted.green.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - teal - Icon ------- 
+  -------- Specimens of - teal - Icon -------
   ----------------------------------------------*/
 
  i.teal.icon {
@@ -1634,7 +1961,7 @@ i.circular.teal.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - teal - Table ------- 
+  ------- Specimens of - teal - Table -------
   ----------------------------------------------*/
 
  .ui.teal.table {
@@ -1652,7 +1979,7 @@ i.circular.teal.icon {
   background-color: #00cfc5;
 }
 /*----------------------------------------------
-  ------- Specimens of - teal - Dimmer ------ 
+  ------- Specimens of - teal - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -1669,7 +1996,7 @@ i.circular.teal.icon {
   color: #009c95 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - teal - Label ------- 
+  ------- Specimens of - teal - Label -------
   ----------------------------------------------*/
 
  .ui.teal.labels .label,
@@ -1707,7 +2034,7 @@ a.ui.teal.basic.label:hover {
   border-color: #009c95 !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - teal - Button ------- 
+  ------ Specimens of - teal - Button -------
   ----------------------------------------------*/
 
  .ui.teal.buttons .button,
@@ -1845,7 +2172,7 @@ a.ui.teal.basic.label:hover {
   color: rgba(0, 181, 173, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - teal - Card -------- 
+  ------- Specimens of - teal - Card --------
   ----------------------------------------------*/
 
  .ui.teal.cards > .card,
@@ -1859,7 +2186,7 @@ a.ui.teal.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #009c95, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - teal - Message ------ 
+  ------ Specimens of - teal - Message ------
   ----------------------------------------------*/
 
  .ui.teal.message {
@@ -1871,7 +2198,7 @@ a.ui.teal.basic.label:hover {
   color: #009c95;
 }
 /*----------------------------------------------
-  ------- Specimens of - teal - Header ------ 
+  ------- Specimens of - teal - Header ------
   ----------------------------------------------*/
 
  .ui.teal.header {
@@ -1891,7 +2218,7 @@ a.ui.inverted.teal.header:hover {
   color: #00b5ad !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - teal - Menu -------- 
+  ------- Specimens of - teal - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .teal.active.item,
@@ -1910,7 +2237,7 @@ a.ui.inverted.teal.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - blue - Grid ------- 
+  -------- Specimens of - blue - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .blue.column {
@@ -1926,7 +2253,7 @@ a.ui.inverted.teal.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - blue - Segment ------ 
+  ------ Specimens of - blue - Segment ------
   ----------------------------------------------*/
 
  .ui.blue.segment:not(.inverted) {
@@ -1937,7 +2264,7 @@ a.ui.inverted.teal.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - blue - Icon ------- 
+  -------- Specimens of - blue - Icon -------
   ----------------------------------------------*/
 
  i.blue.icon {
@@ -1952,7 +2279,7 @@ i.circular.blue.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - blue - Table ------- 
+  ------- Specimens of - blue - Table -------
   ----------------------------------------------*/
 
  .ui.blue.table {
@@ -1970,7 +2297,7 @@ i.circular.blue.icon {
   background-color: #63cbd9;
 }
 /*----------------------------------------------
-  ------- Specimens of - blue - Dimmer ------ 
+  ------- Specimens of - blue - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -1987,7 +2314,7 @@ i.circular.blue.icon {
   color: #32c3d6 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - blue - Label ------- 
+  ------- Specimens of - blue - Label -------
   ----------------------------------------------*/
 
  .ui.blue.labels .label,
@@ -2025,7 +2352,7 @@ a.ui.blue.basic.label:hover {
   border-color: #32c3d6 !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - blue - Button ------- 
+  ------ Specimens of - blue - Button -------
   ----------------------------------------------*/
 
  .ui.blue.buttons .button,
@@ -2163,7 +2490,7 @@ a.ui.blue.basic.label:hover {
   color: rgba(78, 196, 212, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - blue - Card -------- 
+  ------- Specimens of - blue - Card --------
   ----------------------------------------------*/
 
  .ui.blue.cards > .card,
@@ -2177,7 +2504,7 @@ a.ui.blue.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #32c3d6, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - blue - Message ------ 
+  ------ Specimens of - blue - Message ------
   ----------------------------------------------*/
 
  .ui.blue.message {
@@ -2189,7 +2516,7 @@ a.ui.blue.basic.label:hover {
   color: #39bdcf;
 }
 /*----------------------------------------------
-  ------- Specimens of - blue - Header ------ 
+  ------- Specimens of - blue - Header ------
   ----------------------------------------------*/
 
  .ui.blue.header {
@@ -2209,7 +2536,7 @@ a.ui.inverted.blue.header:hover {
   color: #47c9db !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - blue - Menu -------- 
+  ------- Specimens of - blue - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .blue.active.item,
@@ -2228,7 +2555,7 @@ a.ui.inverted.blue.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - violet - Grid ------- 
+  -------- Specimens of - violet - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .violet.column {
@@ -2244,7 +2571,7 @@ a.ui.inverted.blue.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - violet - Segment ------ 
+  ------ Specimens of - violet - Segment ------
   ----------------------------------------------*/
 
  .ui.violet.segment:not(.inverted) {
@@ -2255,7 +2582,7 @@ a.ui.inverted.blue.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - violet - Icon ------- 
+  -------- Specimens of - violet - Icon -------
   ----------------------------------------------*/
 
  i.violet.icon {
@@ -2270,7 +2597,7 @@ i.circular.violet.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - violet - Table ------- 
+  ------- Specimens of - violet - Table -------
   ----------------------------------------------*/
 
  .ui.violet.table {
@@ -2288,7 +2615,7 @@ i.circular.violet.icon {
   background-color: #7349cf;
 }
 /*----------------------------------------------
-  ------- Specimens of - violet - Dimmer ------ 
+  ------- Specimens of - violet - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -2305,7 +2632,7 @@ i.circular.violet.icon {
   color: #5829bb !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - violet - Label ------- 
+  ------- Specimens of - violet - Label -------
   ----------------------------------------------*/
 
  .ui.violet.labels .label,
@@ -2343,7 +2670,7 @@ a.ui.violet.basic.label:hover {
   border-color: #5829bb !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - violet - Button ------- 
+  ------ Specimens of - violet - Button -------
   ----------------------------------------------*/
 
  .ui.violet.buttons .button,
@@ -2481,7 +2808,7 @@ a.ui.violet.basic.label:hover {
   color: rgba(100, 53, 201, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - violet - Card -------- 
+  ------- Specimens of - violet - Card --------
   ----------------------------------------------*/
 
  .ui.violet.cards > .card,
@@ -2495,7 +2822,7 @@ a.ui.violet.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #5829bb, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - violet - Message ------ 
+  ------ Specimens of - violet - Message ------
   ----------------------------------------------*/
 
  .ui.violet.message {
@@ -2507,7 +2834,7 @@ a.ui.violet.basic.label:hover {
   color: #5a30b5;
 }
 /*----------------------------------------------
-  ------- Specimens of - violet - Header ------ 
+  ------- Specimens of - violet - Header ------
   ----------------------------------------------*/
 
  .ui.violet.header {
@@ -2527,7 +2854,7 @@ a.ui.inverted.violet.header:hover {
   color: #612ed0 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - violet - Menu -------- 
+  ------- Specimens of - violet - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .violet.active.item,
@@ -2546,7 +2873,7 @@ a.ui.inverted.violet.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - purple - Grid ------- 
+  -------- Specimens of - purple - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .purple.column {
@@ -2562,7 +2889,7 @@ a.ui.inverted.violet.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - purple - Segment ------ 
+  ------ Specimens of - purple - Segment ------
   ----------------------------------------------*/
 
  .ui.purple.segment:not(.inverted) {
@@ -2573,7 +2900,7 @@ a.ui.inverted.violet.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - purple - Icon ------- 
+  -------- Specimens of - purple - Icon -------
   ----------------------------------------------*/
 
  i.purple.icon {
@@ -2588,7 +2915,7 @@ i.circular.purple.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - purple - Table ------- 
+  ------- Specimens of - purple - Table -------
   ----------------------------------------------*/
 
  .ui.purple.table {
@@ -2606,7 +2933,7 @@ i.circular.purple.icon {
   background-color: #ca89bb;
 }
 /*----------------------------------------------
-  ------- Specimens of - purple - Dimmer ------ 
+  ------- Specimens of - purple - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -2623,7 +2950,7 @@ i.circular.purple.icon {
   color: #be61a9 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - purple - Label ------- 
+  ------- Specimens of - purple - Label -------
   ----------------------------------------------*/
 
  .ui.purple.labels .label,
@@ -2661,7 +2988,7 @@ a.ui.purple.basic.label:hover {
   border-color: #be61a9 !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - purple - Button ------- 
+  ------ Specimens of - purple - Button -------
   ----------------------------------------------*/
 
  .ui.purple.buttons .button,
@@ -2799,7 +3126,7 @@ a.ui.purple.basic.label:hover {
   color: rgba(194, 119, 177, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - purple - Card -------- 
+  ------- Specimens of - purple - Card --------
   ----------------------------------------------*/
 
  .ui.purple.cards > .card,
@@ -2813,7 +3140,7 @@ a.ui.purple.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #be61a9, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - purple - Message ------ 
+  ------ Specimens of - purple - Message ------
   ----------------------------------------------*/
 
  .ui.purple.message {
@@ -2825,7 +3152,7 @@ a.ui.purple.basic.label:hover {
   color: #ba65a7;
 }
 /*----------------------------------------------
-  ------- Specimens of - purple - Header ------ 
+  ------- Specimens of - purple - Header ------
   ----------------------------------------------*/
 
  .ui.purple.header {
@@ -2845,7 +3172,7 @@ a.ui.inverted.purple.header:hover {
   color: #c673b3 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - purple - Menu -------- 
+  ------- Specimens of - purple - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .purple.active.item,
@@ -2864,7 +3191,7 @@ a.ui.inverted.purple.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - pink - Grid ------- 
+  -------- Specimens of - pink - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .pink.column {
@@ -2880,7 +3207,7 @@ a.ui.inverted.purple.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - pink - Segment ------ 
+  ------ Specimens of - pink - Segment ------
   ----------------------------------------------*/
 
  .ui.pink.segment:not(.inverted) {
@@ -2891,7 +3218,7 @@ a.ui.inverted.purple.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - pink - Icon ------- 
+  -------- Specimens of - pink - Icon -------
   ----------------------------------------------*/
 
  i.pink.icon {
@@ -2906,7 +3233,7 @@ i.circular.pink.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - pink - Table ------- 
+  ------- Specimens of - pink - Table -------
   ----------------------------------------------*/
 
  .ui.pink.table {
@@ -2924,7 +3251,7 @@ i.circular.pink.icon {
   background-color: #e34fa3;
 }
 /*----------------------------------------------
-  ------- Specimens of - pink - Dimmer ------ 
+  ------- Specimens of - pink - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -2941,7 +3268,7 @@ i.circular.pink.icon {
   color: #e61a8d !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - pink - Label ------- 
+  ------- Specimens of - pink - Label -------
   ----------------------------------------------*/
 
  .ui.pink.labels .label,
@@ -2979,7 +3306,7 @@ a.ui.pink.basic.label:hover {
   border-color: #e61a8d !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - pink - Button ------- 
+  ------ Specimens of - pink - Button -------
   ----------------------------------------------*/
 
  .ui.pink.buttons .button,
@@ -3117,7 +3444,7 @@ a.ui.pink.basic.label:hover {
   color: rgba(224, 57, 151, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - pink - Card -------- 
+  ------- Specimens of - pink - Card --------
   ----------------------------------------------*/
 
  .ui.pink.cards > .card,
@@ -3131,7 +3458,7 @@ a.ui.pink.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #e61a8d, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - pink - Message ------ 
+  ------ Specimens of - pink - Message ------
   ----------------------------------------------*/
 
  .ui.pink.message {
@@ -3143,7 +3470,7 @@ a.ui.pink.basic.label:hover {
   color: #dd238b;
 }
 /*----------------------------------------------
-  ------- Specimens of - pink - Header ------ 
+  ------- Specimens of - pink - Header ------
   ----------------------------------------------*/
 
  .ui.pink.header {
@@ -3163,7 +3490,7 @@ a.ui.inverted.pink.header:hover {
   color: #e83198 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - pink - Menu -------- 
+  ------- Specimens of - pink - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .pink.active.item,
@@ -3182,7 +3509,7 @@ a.ui.inverted.pink.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - black - Grid ------- 
+  -------- Specimens of - black - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .black.column {
@@ -3198,7 +3525,7 @@ a.ui.inverted.pink.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - black - Segment ------ 
+  ------ Specimens of - black - Segment ------
   ----------------------------------------------*/
 
  .ui.black.segment:not(.inverted) {
@@ -3209,7 +3536,7 @@ a.ui.inverted.pink.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - black - Icon ------- 
+  -------- Specimens of - black - Icon -------
   ----------------------------------------------*/
 
  i.black.icon {
@@ -3224,7 +3551,7 @@ i.circular.black.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - black - Table ------- 
+  ------- Specimens of - black - Table -------
   ----------------------------------------------*/
 
  .ui.black.table {
@@ -3242,7 +3569,7 @@ i.circular.black.icon {
   background-color: #27292a;
 }
 /*----------------------------------------------
-  ------- Specimens of - black - Dimmer ------ 
+  ------- Specimens of - black - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -3259,7 +3586,7 @@ i.circular.black.icon {
   color: #0f0f10 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - black - Label ------- 
+  ------- Specimens of - black - Label -------
   ----------------------------------------------*/
 
  .ui.black.labels .label,
@@ -3297,7 +3624,7 @@ a.ui.black.basic.label:hover {
   border-color: #0f0f10 !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - black - Button ------- 
+  ------ Specimens of - black - Button -------
   ----------------------------------------------*/
 
  .ui.black.buttons .button,
@@ -3435,7 +3762,7 @@ a.ui.black.basic.label:hover {
   color: rgba(27, 28, 29, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - black - Card -------- 
+  ------- Specimens of - black - Card --------
   ----------------------------------------------*/
 
  .ui.black.cards > .card,
@@ -3449,7 +3776,7 @@ a.ui.black.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #0f0f10, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - black - Message ------ 
+  ------ Specimens of - black - Message ------
   ----------------------------------------------*/
 
  .ui.black.message {
@@ -3461,7 +3788,7 @@ a.ui.black.basic.label:hover {
   color: #0f0f10;
 }
 /*----------------------------------------------
-  ------- Specimens of - black - Header ------ 
+  ------- Specimens of - black - Header ------
   ----------------------------------------------*/
 
  .ui.black.header {
@@ -3481,7 +3808,7 @@ a.ui.inverted.black.header:hover {
   color: #1b1c1d !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - black - Menu -------- 
+  ------- Specimens of - black - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .black.active.item,
@@ -3500,7 +3827,7 @@ a.ui.inverted.black.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - grey - Grid ------- 
+  -------- Specimens of - grey - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .grey.column {
@@ -3516,7 +3843,7 @@ a.ui.inverted.black.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - grey - Segment ------ 
+  ------ Specimens of - grey - Segment ------
   ----------------------------------------------*/
 
  .ui.grey.segment:not(.inverted) {
@@ -3527,7 +3854,7 @@ a.ui.inverted.black.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - grey - Icon ------- 
+  -------- Specimens of - grey - Icon -------
   ----------------------------------------------*/
 
  i.grey.icon {
@@ -3542,7 +3869,7 @@ i.circular.grey.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - grey - Table ------- 
+  ------- Specimens of - grey - Table -------
   ----------------------------------------------*/
 
  .ui.grey.table {
@@ -3560,7 +3887,7 @@ i.circular.grey.icon {
   background-color: #838383;
 }
 /*----------------------------------------------
-  ------- Specimens of - grey - Dimmer ------ 
+  ------- Specimens of - grey - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -3577,7 +3904,7 @@ i.circular.grey.icon {
   color: #696969 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - grey - Label ------- 
+  ------- Specimens of - grey - Label -------
   ----------------------------------------------*/
 
  .ui.grey.labels .label,
@@ -3615,7 +3942,7 @@ a.ui.grey.basic.label:hover {
   border-color: #696969 !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - grey - Button ------- 
+  ------ Specimens of - grey - Button -------
   ----------------------------------------------*/
 
  .ui.grey.buttons .button,
@@ -3753,7 +4080,7 @@ a.ui.grey.basic.label:hover {
   color: rgba(118, 118, 118, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - grey - Card -------- 
+  ------- Specimens of - grey - Card --------
   ----------------------------------------------*/
 
  .ui.grey.cards > .card,
@@ -3767,7 +4094,7 @@ a.ui.grey.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #696969, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - grey - Message ------ 
+  ------ Specimens of - grey - Message ------
   ----------------------------------------------*/
 
  .ui.grey.message {
@@ -3779,7 +4106,7 @@ a.ui.grey.basic.label:hover {
   color: #696969;
 }
 /*----------------------------------------------
-  ------- Specimens of - grey - Header ------ 
+  ------- Specimens of - grey - Header ------
   ----------------------------------------------*/
 
  .ui.grey.header {
@@ -3799,7 +4126,7 @@ a.ui.inverted.grey.header:hover {
   color: #767676 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - grey - Menu -------- 
+  ------- Specimens of - grey - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .grey.active.item,
@@ -3818,12 +4145,12 @@ a.ui.inverted.grey.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /* ---------------------------------------------------*
-													  
-		        	Your Custom Color					  
-													      	            	            	           
+
+		        	Your Custom Color
+
 ------------------------------------------------------*/
 /*----------------------------------------------
-  -------- Specimens of - flatgold - Grid ------- 
+  -------- Specimens of - flatgold - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .flatgold.column {
@@ -3839,7 +4166,7 @@ a.ui.inverted.grey.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - flatgold - Segment ------ 
+  ------ Specimens of - flatgold - Segment ------
   ----------------------------------------------*/
 
  .ui.flatgold.segment:not(.inverted) {
@@ -3850,7 +4177,7 @@ a.ui.inverted.grey.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - flatgold - Icon ------- 
+  -------- Specimens of - flatgold - Icon -------
   ----------------------------------------------*/
 
  i.flatgold.icon {
@@ -3865,7 +4192,7 @@ i.circular.flatgold.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - flatgold - Table ------- 
+  ------- Specimens of - flatgold - Table -------
   ----------------------------------------------*/
 
  .ui.flatgold.table {
@@ -3883,7 +4210,7 @@ i.circular.flatgold.icon {
   background-color: #b7962d;
 }
 /*----------------------------------------------
-  ------- Specimens of - flatgold - Dimmer ------ 
+  ------- Specimens of - flatgold - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -3900,7 +4227,7 @@ i.circular.flatgold.icon {
   color: #94771e !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - flatgold - Label ------- 
+  ------- Specimens of - flatgold - Label -------
   ----------------------------------------------*/
 
  .ui.flatgold.labels .label,
@@ -3938,7 +4265,7 @@ a.ui.flatgold.basic.label:hover {
   border-color: #94771e !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - flatgold - Button ------- 
+  ------ Specimens of - flatgold - Button -------
   ----------------------------------------------*/
 
  .ui.flatgold.buttons .button,
@@ -4076,7 +4403,7 @@ a.ui.flatgold.basic.label:hover {
   color: rgba(163, 133, 40, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - flatgold - Card -------- 
+  ------- Specimens of - flatgold - Card --------
   ----------------------------------------------*/
 
  .ui.flatgold.cards > .card,
@@ -4090,7 +4417,7 @@ a.ui.flatgold.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #94771e, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - flatgold - Message ------ 
+  ------ Specimens of - flatgold - Message ------
   ----------------------------------------------*/
 
  .ui.flatgold.message {
@@ -4102,7 +4429,7 @@ a.ui.flatgold.basic.label:hover {
   color: #8f7423;
 }
 /*----------------------------------------------
-  ------- Specimens of - flatgold - Header ------ 
+  ------- Specimens of - flatgold - Header ------
   ----------------------------------------------*/
 
  .ui.flatgold.header {
@@ -4122,7 +4449,7 @@ a.ui.inverted.flatgold.header:hover {
   color: #a98822 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - flatgold - Menu -------- 
+  ------- Specimens of - flatgold - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .flatgold.active.item,
@@ -4141,7 +4468,7 @@ a.ui.inverted.flatgold.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - concrete - Grid ------- 
+  -------- Specimens of - concrete - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .concrete.column {
@@ -4157,7 +4484,7 @@ a.ui.inverted.flatgold.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - concrete - Segment ------ 
+  ------ Specimens of - concrete - Segment ------
   ----------------------------------------------*/
 
  .ui.concrete.segment:not(.inverted) {
@@ -4168,7 +4495,7 @@ a.ui.inverted.flatgold.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - concrete - Icon ------- 
+  -------- Specimens of - concrete - Icon -------
   ----------------------------------------------*/
 
  i.concrete.icon {
@@ -4183,7 +4510,7 @@ i.circular.concrete.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - concrete - Table ------- 
+  ------- Specimens of - concrete - Table -------
   ----------------------------------------------*/
 
  .ui.concrete.table {
@@ -4201,7 +4528,7 @@ i.circular.concrete.icon {
   background-color: #bfc8bd;
 }
 /*----------------------------------------------
-  ------- Specimens of - concrete - Dimmer ------ 
+  ------- Specimens of - concrete - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -4218,7 +4545,7 @@ i.circular.concrete.icon {
   color: #a4b1a0 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - concrete - Label ------- 
+  ------- Specimens of - concrete - Label -------
   ----------------------------------------------*/
 
  .ui.concrete.labels .label,
@@ -4256,7 +4583,7 @@ a.ui.concrete.basic.label:hover {
   border-color: #a4b1a0 !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - concrete - Button ------- 
+  ------ Specimens of - concrete - Button -------
   ----------------------------------------------*/
 
  .ui.concrete.buttons .button,
@@ -4394,7 +4721,7 @@ a.ui.concrete.basic.label:hover {
   color: rgba(178, 188, 175, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - concrete - Card -------- 
+  ------- Specimens of - concrete - Card --------
   ----------------------------------------------*/
 
  .ui.concrete.cards > .card,
@@ -4408,7 +4735,7 @@ a.ui.concrete.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #a4b1a0, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - concrete - Message ------ 
+  ------ Specimens of - concrete - Message ------
   ----------------------------------------------*/
 
  .ui.concrete.message {
@@ -4420,7 +4747,7 @@ a.ui.concrete.basic.label:hover {
   color: #a5b0a1;
 }
 /*----------------------------------------------
-  ------- Specimens of - concrete - Header ------ 
+  ------- Specimens of - concrete - Header ------
   ----------------------------------------------*/
 
  .ui.concrete.header {
@@ -4440,7 +4767,7 @@ a.ui.inverted.concrete.header:hover {
   color: #b2bdae !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - concrete - Menu -------- 
+  ------- Specimens of - concrete - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .concrete.active.item,
@@ -4459,7 +4786,7 @@ a.ui.inverted.concrete.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - darkgreen - Grid ------- 
+  -------- Specimens of - darkgreen - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .darkgreen.column {
@@ -4475,7 +4802,7 @@ a.ui.inverted.concrete.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - darkgreen - Segment ------ 
+  ------ Specimens of - darkgreen - Segment ------
   ----------------------------------------------*/
 
  .ui.darkgreen.segment:not(.inverted) {
@@ -4486,7 +4813,7 @@ a.ui.inverted.concrete.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - darkgreen - Icon ------- 
+  -------- Specimens of - darkgreen - Icon -------
   ----------------------------------------------*/
 
  i.darkgreen.icon {
@@ -4501,7 +4828,7 @@ i.circular.darkgreen.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - darkgreen - Table ------- 
+  ------- Specimens of - darkgreen - Table -------
   ----------------------------------------------*/
 
  .ui.darkgreen.table {
@@ -4519,7 +4846,7 @@ i.circular.darkgreen.icon {
   background-color: #585222;
 }
 /*----------------------------------------------
-  ------- Specimens of - darkgreen - Dimmer ------ 
+  ------- Specimens of - darkgreen - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -4536,7 +4863,7 @@ i.circular.darkgreen.icon {
   color: #353112 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - darkgreen - Label ------- 
+  ------- Specimens of - darkgreen - Label -------
   ----------------------------------------------*/
 
  .ui.darkgreen.labels .label,
@@ -4574,7 +4901,7 @@ a.ui.darkgreen.basic.label:hover {
   border-color: #353112 !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - darkgreen - Button ------- 
+  ------ Specimens of - darkgreen - Button -------
   ----------------------------------------------*/
 
  .ui.darkgreen.buttons .button,
@@ -4712,7 +5039,7 @@ a.ui.darkgreen.basic.label:hover {
   color: rgba(70, 65, 27, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - darkgreen - Card -------- 
+  ------- Specimens of - darkgreen - Card --------
   ----------------------------------------------*/
 
  .ui.darkgreen.cards > .card,
@@ -4726,7 +5053,7 @@ a.ui.darkgreen.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #353112, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - darkgreen - Message ------ 
+  ------ Specimens of - darkgreen - Message ------
   ----------------------------------------------*/
 
  .ui.darkgreen.message {
@@ -4738,7 +5065,7 @@ a.ui.darkgreen.basic.label:hover {
   color: #343014;
 }
 /*----------------------------------------------
-  ------- Specimens of - darkgreen - Header ------ 
+  ------- Specimens of - darkgreen - Header ------
   ----------------------------------------------*/
 
  .ui.darkgreen.header {
@@ -4758,7 +5085,7 @@ a.ui.inverted.darkgreen.header:hover {
   color: #484319 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - darkgreen - Menu -------- 
+  ------- Specimens of - darkgreen - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .darkgreen.active.item,
@@ -4777,7 +5104,7 @@ a.ui.inverted.darkgreen.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - autumnbrown - Grid ------- 
+  -------- Specimens of - autumnbrown - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .autumnbrown.column {
@@ -4793,7 +5120,7 @@ a.ui.inverted.darkgreen.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - autumnbrown - Segment ------ 
+  ------ Specimens of - autumnbrown - Segment ------
   ----------------------------------------------*/
 
  .ui.autumnbrown.segment:not(.inverted) {
@@ -4804,7 +5131,7 @@ a.ui.inverted.darkgreen.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - autumnbrown - Icon ------- 
+  -------- Specimens of - autumnbrown - Icon -------
   ----------------------------------------------*/
 
  i.autumnbrown.icon {
@@ -4819,7 +5146,7 @@ i.circular.autumnbrown.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - autumnbrown - Table ------- 
+  ------- Specimens of - autumnbrown - Table -------
   ----------------------------------------------*/
 
  .ui.autumnbrown.table {
@@ -4837,7 +5164,7 @@ i.circular.autumnbrown.icon {
   background-color: #9e9395;
 }
 /*----------------------------------------------
-  ------- Specimens of - autumnbrown - Dimmer ------ 
+  ------- Specimens of - autumnbrown - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -4854,7 +5181,7 @@ i.circular.autumnbrown.icon {
   color: #87787a !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - autumnbrown - Label ------- 
+  ------- Specimens of - autumnbrown - Label -------
   ----------------------------------------------*/
 
  .ui.autumnbrown.labels .label,
@@ -4892,7 +5219,7 @@ a.ui.autumnbrown.basic.label:hover {
   border-color: #87787a !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - autumnbrown - Button ------- 
+  ------ Specimens of - autumnbrown - Button -------
   ----------------------------------------------*/
 
  .ui.autumnbrown.buttons .button,
@@ -5030,7 +5357,7 @@ a.ui.autumnbrown.basic.label:hover {
   color: rgba(146, 134, 136, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - autumnbrown - Card -------- 
+  ------- Specimens of - autumnbrown - Card --------
   ----------------------------------------------*/
 
  .ui.autumnbrown.cards > .card,
@@ -5044,7 +5371,7 @@ a.ui.autumnbrown.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #87787a, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - autumnbrown - Message ------ 
+  ------ Specimens of - autumnbrown - Message ------
   ----------------------------------------------*/
 
  .ui.autumnbrown.message {
@@ -5056,7 +5383,7 @@ a.ui.autumnbrown.basic.label:hover {
   color: #86797b;
 }
 /*----------------------------------------------
-  ------- Specimens of - autumnbrown - Header ------ 
+  ------- Specimens of - autumnbrown - Header ------
   ----------------------------------------------*/
 
  .ui.autumnbrown.header {
@@ -5076,7 +5403,7 @@ a.ui.inverted.autumnbrown.header:hover {
   color: #938588 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - autumnbrown - Menu -------- 
+  ------- Specimens of - autumnbrown - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .autumnbrown.active.item,
@@ -5095,7 +5422,7 @@ a.ui.inverted.autumnbrown.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - darkblue - Grid ------- 
+  -------- Specimens of - darkblue - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .darkblue.column {
@@ -5111,7 +5438,7 @@ a.ui.inverted.autumnbrown.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - darkblue - Segment ------ 
+  ------ Specimens of - darkblue - Segment ------
   ----------------------------------------------*/
 
  .ui.darkblue.segment:not(.inverted) {
@@ -5122,7 +5449,7 @@ a.ui.inverted.autumnbrown.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - darkblue - Icon ------- 
+  -------- Specimens of - darkblue - Icon -------
   ----------------------------------------------*/
 
  i.darkblue.icon {
@@ -5137,7 +5464,7 @@ i.circular.darkblue.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - darkblue - Table ------- 
+  ------- Specimens of - darkblue - Table -------
   ----------------------------------------------*/
 
  .ui.darkblue.table {
@@ -5155,7 +5482,7 @@ i.circular.darkblue.icon {
   background-color: #123448;
 }
 /*----------------------------------------------
-  ------- Specimens of - darkblue - Dimmer ------ 
+  ------- Specimens of - darkblue - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -5172,7 +5499,7 @@ i.circular.darkblue.icon {
   color: #071721 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - darkblue - Label ------- 
+  ------- Specimens of - darkblue - Label -------
   ----------------------------------------------*/
 
  .ui.darkblue.labels .label,
@@ -5210,7 +5537,7 @@ a.ui.darkblue.basic.label:hover {
   border-color: #071721 !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - darkblue - Button ------- 
+  ------ Specimens of - darkblue - Button -------
   ----------------------------------------------*/
 
  .ui.darkblue.buttons .button,
@@ -5348,7 +5675,7 @@ a.ui.darkblue.basic.label:hover {
   color: rgba(13, 37, 52, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - darkblue - Card -------- 
+  ------- Specimens of - darkblue - Card --------
   ----------------------------------------------*/
 
  .ui.darkblue.cards > .card,
@@ -5362,7 +5689,7 @@ a.ui.darkblue.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #071721, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - darkblue - Message ------ 
+  ------ Specimens of - darkblue - Message ------
   ----------------------------------------------*/
 
  .ui.darkblue.message {
@@ -5374,7 +5701,7 @@ a.ui.darkblue.basic.label:hover {
   color: #081620;
 }
 /*----------------------------------------------
-  ------- Specimens of - darkblue - Header ------ 
+  ------- Specimens of - darkblue - Header ------
   ----------------------------------------------*/
 
  .ui.darkblue.header {
@@ -5394,7 +5721,7 @@ a.ui.inverted.darkblue.header:hover {
   color: #0b2536 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - darkblue - Menu -------- 
+  ------- Specimens of - darkblue - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .darkblue.active.item,
@@ -5413,7 +5740,7 @@ a.ui.inverted.darkblue.header:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - litecream - Grid ------- 
+  -------- Specimens of - litecream - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .litecream.column {
@@ -5429,7 +5756,7 @@ a.ui.inverted.darkblue.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - litecream - Segment ------ 
+  ------ Specimens of - litecream - Segment ------
   ----------------------------------------------*/
 
  .ui.litecream.segment:not(.inverted) {
@@ -5440,7 +5767,7 @@ a.ui.inverted.darkblue.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - litecream - Icon ------- 
+  -------- Specimens of - litecream - Icon -------
   ----------------------------------------------*/
 
  i.litecream.icon {
@@ -5455,7 +5782,7 @@ i.circular.litecream.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - litecream - Table ------- 
+  ------- Specimens of - litecream - Table -------
   ----------------------------------------------*/
 
  .ui.litecream.table {
@@ -5473,7 +5800,7 @@ i.circular.litecream.icon {
   background-color: #f5f6f4;
 }
 /*----------------------------------------------
-  ------- Specimens of - litecream - Dimmer ------ 
+  ------- Specimens of - litecream - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -5490,7 +5817,7 @@ i.circular.litecream.icon {
   color: #dde0d7 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - litecream - Label ------- 
+  ------- Specimens of - litecream - Label -------
   ----------------------------------------------*/
 
  .ui.litecream.labels .label,
@@ -5528,7 +5855,7 @@ a.ui.litecream.basic.label:hover {
   border-color: #dde0d7 !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - litecream - Button ------- 
+  ------ Specimens of - litecream - Button -------
   ----------------------------------------------*/
 
  .ui.litecream.buttons .button,
@@ -5666,7 +5993,7 @@ a.ui.litecream.basic.label:hover {
   color: rgba(233, 235, 230, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - litecream - Card -------- 
+  ------- Specimens of - litecream - Card --------
   ----------------------------------------------*/
 
  .ui.litecream.cards > .card,
@@ -5680,7 +6007,7 @@ a.ui.litecream.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #dde0d7, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - litecream - Message ------ 
+  ------ Specimens of - litecream - Message ------
   ----------------------------------------------*/
 
  .ui.litecream.message {
@@ -5692,7 +6019,7 @@ a.ui.litecream.basic.label:hover {
   color: #dde0d8;
 }
 /*----------------------------------------------
-  ------- Specimens of - litecream - Header ------ 
+  ------- Specimens of - litecream - Header ------
   ----------------------------------------------*/
 
  .ui.litecream.header {
@@ -5712,7 +6039,7 @@ a.ui.inverted.litecream.header:hover {
   color: #e9ebe6 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - litecream - Menu -------- 
+  ------- Specimens of - litecream - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .litecream.active.item,
@@ -5732,15 +6059,15 @@ a.ui.inverted.litecream.header:hover {
 }
 
 /* ----------------------------
-   Current Available Color  
+   Current Available Color
 ------------------------------ */
 /* ---------------------------------------------------*
-                            
-              Your Custom Color           
-                                                                         
+
+              Your Custom Color
+
 ------------------------------------------------------*/
 /*----------------------------------------------
-  -------- Specimens of - telek - Grid ------- 
+  -------- Specimens of - telek - Grid -------
   ----------------------------------------------*/
 
  .ui.grid > .row > .telek.column {
@@ -5756,7 +6083,7 @@ a.ui.inverted.litecream.header:hover {
   color: #ffffff;
 }
 /*----------------------------------------------
-  ------ Specimens of - telek - Segment ------ 
+  ------ Specimens of - telek - Segment ------
   ----------------------------------------------*/
 
  .ui.telek.segment:not(.inverted) {
@@ -5767,7 +6094,7 @@ a.ui.inverted.litecream.header:hover {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  -------- Specimens of - telek - Icon ------- 
+  -------- Specimens of - telek - Icon -------
   ----------------------------------------------*/
 
  i.telek.icon {
@@ -5782,7 +6109,7 @@ i.circular.telek.icon {
   color: #ffffff !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - telek - Table ------- 
+  ------- Specimens of - telek - Table -------
   ----------------------------------------------*/
 
  .ui.telek.table {
@@ -5800,7 +6127,7 @@ i.circular.telek.icon {
   background-color: #eacf71;
 }
 /*----------------------------------------------
-  ------- Specimens of - telek - Dimmer ------ 
+  ------- Specimens of - telek - Dimmer ------
   ----------------------------------------------*/
 
  .blurring.dimmable > .dimmer {
@@ -5817,7 +6144,7 @@ i.circular.telek.icon {
   color: #ecc53d !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - telek - Label ------- 
+  ------- Specimens of - telek - Label -------
   ----------------------------------------------*/
 
  .ui.telek.labels .label,
@@ -5855,7 +6182,7 @@ a.ui.telek.basic.label:hover {
   border-color: #ecc53d !important;
 }
 /*----------------------------------------------
-  ------ Specimens of - telek - Button ------- 
+  ------ Specimens of - telek - Button -------
   ----------------------------------------------*/
 
  .ui.telek.buttons .button,
@@ -5993,7 +6320,7 @@ a.ui.telek.basic.label:hover {
   color: rgba(231, 200, 91, 0.1) !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - telek - Card -------- 
+  ------- Specimens of - telek - Card --------
   ----------------------------------------------*/
 
  .ui.telek.cards > .card,
@@ -6007,7 +6334,7 @@ a.ui.telek.basic.label:hover {
   box-shadow: 0px 0px 0px 1px #d4d4d5, 0px 2px 0px 0px #ecc53d, 0px 1px 3px 0px #bcbdbd;
 }
 /*----------------------------------------------
-  ------ Specimens of - telek - Message ------ 
+  ------ Specimens of - telek - Message ------
   ----------------------------------------------*/
 
  .ui.telek.message {
@@ -6019,7 +6346,7 @@ a.ui.telek.basic.label:hover {
   color: #e4c145;
 }
 /*----------------------------------------------
-  ------- Specimens of - telek - Header ------ 
+  ------- Specimens of - telek - Header ------
   ----------------------------------------------*/
 
  .ui.telek.header {
@@ -6039,7 +6366,7 @@ a.ui.inverted.telek.header:hover {
   color: #eecc54 !important;
 }
 /*----------------------------------------------
-  ------- Specimens of - telek - Menu -------- 
+  ------- Specimens of - telek - Menu --------
   ----------------------------------------------*/
 
  .ui.menu .telek.active.item,

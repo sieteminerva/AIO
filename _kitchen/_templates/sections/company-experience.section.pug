@@ -1,1 +1,7 @@
-h1 Company Experience
+.ui.four.cards
+  each experience in experiences
+    .red.card
+      .content
+        .header #{experience.category}
+        .meta #{experience.years}
+        .description #{experience.item}

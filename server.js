@@ -45,6 +45,7 @@ app.get('/', function(req, res){
     services: data('contents/_data/service.json'),
     experiences: data('contents/_data/experience.json'),
     publications: data('contents/_data/publication.json'),
+    company: data('contents/_data/general.json')
   });
 
 });
